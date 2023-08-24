@@ -1,0 +1,808 @@
+/*criação de fonte*/
+
+@font-face {
+    font-family: font-dk;
+    src: url('./fontes/Guardians.ttf') format('truetype');
+}
+
+/*Geral*/
+body,
+html {
+    height: 100%;
+    margin:0;
+    margin-top:-50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin-top: auto;
+    text-align: center;
+}
+
+
+
+/*Pagina 1 */
+.page1 {
+    width: 1728px;
+    height: 1117px;
+    overflow: hidden;
+    box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.25) inset;
+    background: #D9D9D9;
+    background: url(../res/geral/fundo-titulo.png), lightgray -1.783px 9.375px / 98.651% 97.953% no-repeat;
+    margin-top: 80%;
+    margin-bottom: 5%;
+}
+
+.page1 .titulo h1 {
+    margin-top: -300px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: 'font-dk';
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    backdrop-filter: blur(0px);
+}
+
+.page1 .icone {
+    width: 702px;
+    height: 825px;
+    background: url(../res/geral/icone.png), rgba(211, 211, 211, 0) -1.783px 9.375px / 98.651% 97.953% no-repeat;
+    flex-shrink: 0;
+}
+
+
+/*Pagina 2 */
+.page2 {
+    display: flex;
+    width: 1728px;
+    height: 1117px;
+    overflow: hidden;
+    background: #89aab873;
+    border: 1px solid red;
+    margin-bottom: 5%;
+}
+
+.page2 .sobre {
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.page2 .sobre h1 {
+    width: 500px;
+    height: 59px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Post No Bills Colombo ExtraBold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.page2 .sobre p {
+    width: 802px;
+    height: 124px;
+    flex-shrink: 0;
+    color: #171212;
+    font-family: Abel;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.page2 .sobre span {
+    font-family: Abel;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.page2 .img-astronauta {
+    width: 782px;
+    height: 1100px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    background: url(../res/geral/astronauta.png), lightgray 0px -189.667px / 103.453% 134.43% no-repeat;
+    background-size: cover;
+    flex-shrink: 0;
+    margin-left: 55%;
+}
+
+.page2 .fundamentos {
+    display: flex;
+}
+
+.fundamentos .found {
+    width: 230px;
+    height: 241.916px;
+    background: #0b1535c2;
+    margin-left: 20px;
+    font-size: 1px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.534);
+    border-radius: 5px;
+
+}
+
+.fundamentos .mission p {
+    width: 230px;
+    font-size: 15px;
+    color: white;
+}
+
+.fundamentos .vision p {
+    width: 230px;
+    font-size: 15px;
+    color: white;
+}
+
+.fundamentos .values p {
+    width: 230px;
+    font-size: 15px;
+    color: white;
+}
+
+
+.fundamentos .mission h3 {
+    width: 230px;
+    font-size: 20px;
+    color: white;
+}
+
+.fundamentos .vision h3 {
+    width: 230px;
+    font-size: 20px;
+    color: white;
+}
+
+.fundamentos .values h3 {
+    width: 230px;
+    font-size: 20px;
+    color: white;
+}
+
+
+/*Pagina 3*/
+
+.page3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1728px;
+    height: 1117px;
+    background: url(../res/geral/space-fundo.jpg), lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid red;
+    margin-bottom: 5%;
+
+}
+
+.page3 .report1 {
+    margin-top: 200px;
+    margin-left: -10%;
+    width: 800px;
+    height: 300px;
+    background: url(../res/whi/noticia-incentivo.png), lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-shrink: 0;
+}
+
+.page3 .report2 {
+    width: 572px;
+    height: 366px;
+    background: url(../res/whi/noticia-arcelor.png), lightgray 50% / cover no-repeat;
+    flex-shrink: 0;
+}
+
+.page3 .report3 {
+    width: 698px;
+    height: 276px;
+    border-radius: 15px;
+    background: url(../res/whi/noticia-incentivo1.png), lightgray 50% / cover no-repeat;
+    flex-shrink: 0;
+}
+
+.page3 .titulo h1 {
+    width: 950px;
+    height: 75px;
+    flex-shrink: 0;
+    color: #faf1f1;
+    font-family: Post No Bills Colombo ExtraBold;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+/*Page 4*/
+
+.page4 {
+    display: flex;
+    justify-content: center;
+    width: 1728px;
+    height: 1117px;
+    overflow: hidden;
+    background: #FFF;
+    border: 1px solid red;
+    margin-bottom: 5%;
+}
+
+
+.page4 .setor1 {
+
+    width: 530px;
+    height: 1037px;
+    border-radius: 15px 0px 0px 15px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.50);
+    background: rgba(1, 16, 47, 0.80);
+    flex-shrink: 0;
+    margin-left: 2%;
+}
+
+.setor1 h1 {
+    width: 416px;
+    height: 71px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Post No Bills Colombo ExtraBold;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+.setor2 h1 {
+    width: 416px;
+    height: 71px;
+    flex-shrink: 0;
+    color: #111010;
+    font-family: Post No Bills Colombo ExtraBold;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+.setor3 h1 {
+    width: 416px;
+    height: 71px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Post No Bills Colombo ExtraBold;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+.page4 .setor2 {
+    width: 530px;
+    height: 1037px;
+    border: 5px solid rgba(1, 16, 47, 0.79);
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.50);
+    background: rgba(3, 5, 19, 0.00);
+    flex-shrink: 0;
+    margin-left: 2%;
+
+
+}
+
+.page4 .box h3 {
+    width: 416px;
+    margin-left: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+
+}
+
+.page4 .box h3:hover {
+    background-color: #01102f59;
+}
+
+.page4 .setor3 {
+
+    width: 529px;
+    height: 1037px;
+    border-radius: 0px 15px 15px 0px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.50);
+    background: rgba(1, 16, 47, 0.20);
+    flex-shrink: 0;
+    margin-left: 2%;
+
+}
+
+
+/*Pagina 5*/
+
+.page5 {
+    display: flex;
+    flex-direction: row;
+    width: 1728px;
+    height: 1135px;
+    background: url(../res/governança/fundoGov.png), lightgray 50% / cover no-repeat;
+    flex-shrink: 0;
+    margin-bottom: 5%;
+
+}
+
+.page5 .gov {
+    width: 640px;
+    height: 975px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.25) inset, 0px 4px 20px 0px rgba(0, 0, 0, 0.30);
+    background: #1E1E1E;
+    flex-shrink: 0;
+    margin-right: 5px;
+    margin-left: 8%;
+    margin-top: 15px;
+}
+
+
+
+.gov .equipe .pessoal {
+    display: flex;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.equipe .user {
+    width: 100px;
+    height: 100px;
+    background: url(../res/governança/user-default.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
+    flex-shrink: 0;
+    margin-top: 10px;
+    margin-left: 10%;
+    z-index: 0;
+}
+
+.equipe .pessoal .funcao {
+    margin-top: 8%;
+    margin-left: 30px;
+}
+
+.pessoal .funcao span {
+
+    padding-left: 90px;
+    padding-right: 0;
+    padding-bottom: 10px;
+    margin-left: -80px;
+    z-index: 1;
+}
+
+.gov .gestor {
+    color: white;
+}
+
+
+.page5 .Oscar {
+    display: flex;
+}
+
+.page54 .oscar .user {
+    width: 100px;
+    height: 100px;
+    background: url(../res/governança/user-default.png), lightgray 50% / cover no-repeat;
+    flex-shrink: 0;
+}
+
+/*page6*/
+
+.page6 {
+    display: flex;
+    width: 1728px;
+    height: 1135px;
+    background: url(../res/metas/fundoprojeção.png), lightgray 50% / cover no-repeat;
+    flex-shrink: 0;
+
+}
+
+
+.page6 .time {
+    width: 500px;
+    height: 957px;
+    margin-top: 5%;
+    margin-left: 3%;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(180deg, #01102F 0%, rgba(1, 16, 47, 0.801) 42.36%, rgba(1, 16, 47, 0.70) 65.30%, rgba(1, 16, 47, 0.79) 97.92%);
+    flex-shrink: 0;
+    color:white;
+}
+
+
+.page6 .time .titulo {
+    width: 250px;
+    border-radius:5px;
+    background-color: #FB9804;
+    flex-shrink: 0;
+    margin-left:25%;
+    margin-bottom: 100px;;
+}
+
+.time .titulo h1{
+    color:black;
+    padding-top:5px;
+    padding-bottom: 5px;
+    
+}
+
+.page6 .projetos{
+    display:flex;
+    justify-content: left;
+    margin-bottom: 20px;
+    margin-left:50px;
+
+}
+
+
+/*ano 1*/
+.ano1 .projetos .imagem1{
+    width: 120px;
+    height: 120px;
+    background: url(../res/metas/quedazero.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
+    flex-shrink: 0;
+}
+.ano1 .projetos .imagem2{
+    width: 120px;
+    height: 120px;
+    background: url(../res/metas/sdo.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
+    flex-shrink: 0;
+}
+.ano1 .projetos .imagem3{
+    width: 120px;
+    height: 120px;
+    background: url(../res/metas/equipe-agil.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
+    flex-shrink: 0;
+}
+
+/*ano 2*/
+.ano2 .projetos .imagem1{
+    width: 120px;
+    height: 120px;
+    background: url(../res/metas/espaço.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
+    flex-shrink: 0;
+}
+.ano2 .projetos .imagem2{
+    width: 120px;
+    height: 120px;
+    background: url(../res/metas/sds.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
+    flex-shrink: 0;
+}
+.ano2 .projetos .imagem3{
+    width: 120px;
+    height: 120px;
+    background: url(../res/metas/pulse.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
+    flex-shrink: 0;
+}
+
+/*ano 3*/
+.ano3 .projetos .imagem1{
+    width: 120px;
+    height: 120px;
+    background: url(../res/metas/software-propietario.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
+    flex-shrink: 0;
+}
+.ano3 .projetos .imagem2{
+    width: 120px;
+    height: 120px;
+    background: url(../res/metas/expand.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
+    flex-shrink: 0;
+}
+.ano3 .projetos .imagem3{
+    width: 120px;
+    height: 120px;
+    background: url(../res/metas/plataforma-cursos.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
+    flex-shrink: 0;
+}
+
+.projetos{
+ 
+margin-top:100px;
+}
+
+.projetos .descricao{
+    margin-left: 20px;
+    margin-top:30px;
+}
+
+
+/*pagina 7*/
+.page7 {
+    width: 1728px;
+    height: 1135px;
+    background: url(../res/layout/fundo_espaço.png), lightgray 50% / cover no-repeat;
+    flex-shrink: 0;
+    margin-bottom: 5%;
+}
+
+.page7 .titulo {
+    width: 700px;
+    height: 69px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Post No Bills Jaffna ExtraBold;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.page7 .locais {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+
+.page7 .space {
+    width: 423px;
+    height: 344px;
+  
+    margin-top: 25%;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.30);
+    background: #FFF;
+    flex-shrink: 0;
+}
+
+
+/*local 1*/
+.page7 .sala1 .local{
+width: 324px;
+height: 200px;
+border-radius: 10px;
+background: url(../res/layout/pesquisa.png), lightgray 50% / cover no-repeat;
+flex-shrink: 0;
+}
+.page7 .sala1 .local:hover{
+width: 324px;
+height: 200px;
+border-radius: 10px;
+background: url(../res/layout/pesquisa.png), lightgray 50% /  no-repeat;
+background-position: 50%;
+background-size:35dvb;
+flex-shrink: 0;
+}
+
+/*local 2*/
+.page7 .sala2 .local{
+width: 324px;
+height: 200px;
+border-radius: 10px;
+background: url(../res/layout/lab-dev.png), lightgray 50% / cover no-repeat;
+flex-shrink: 0;
+}
+
+.page7 .sala2 .local:hover{
+width: 324px;
+height: 200px;
+border-radius: 10px;
+background: url(../res/layout/lab-dev.png), lightgray 50% / cover no-repeat;
+background-position: 50%;
+background-size:35dvb;
+flex-shrink: 0;
+}
+
+/*local 3*/
+.page7 .sala3 .local{
+width: 324px;
+height: 200px;
+border-radius: 10px;
+background: url(../res/layout/focus-group.png), lightgray 50% / cover no-repeat;
+flex-shrink: 0;
+}
+
+.page7 .sala3 .local:hover{
+width: 324px;
+height: 200px;
+border-radius: 10px;
+background: url(../res/layout/focus-group.png), lightgray 50% / cover no-repeat;
+background-position: 50%;
+background-size:35dvb;
+flex-shrink: 0;
+}
+
+
+/*local 4*/
+.page7 .sala4 .local{
+width: 324px;
+height: 200px;
+border-radius: 10px;
+background: url(../res/layout/recreation.png), lightgray 50% / cover no-repeat;
+flex-shrink: 0;
+}
+
+.page7 .sala4 .local:hover{
+width: 324px;
+height: 200px;
+border-radius: 10px;
+background: url(../res/layout/recreation.png), lightgray 50% / cover no-repeat;
+background-position: 50%;
+background-size:35dvb;
+flex-shrink: 0;
+}
+
+
+/*local 5*/
+.page7 .sala5 .local{
+width: 324px;
+height: 200px;
+border-radius: 10px;
+background: url(../res/layout/dikmatec.png), lightgray 50% / cover no-repeat;
+flex-shrink: 0;
+}
+
+.page7 .sala5 .local:hover{
+width: 324px;
+height: 200px;
+border-radius: 10px;
+background: url(../res/layout/dikmatec.png), lightgray 50% / cover no-repeat;
+background-position: 50%;
+background-size:35dvb;
+flex-shrink: 0;
+}
+
+
+/*local 6*/
+.page7 .sala6 .local{
+width: 324px;
+height: 200px;
+border-radius: 10px;
+background: url(../res/layout/thinking.png), lightgray 50% / cover no-repeat;
+flex-shrink: 0;
+}
+
+.page7 .sala6 .local:hover{
+width: 324px;
+height: 200px;
+border-radius: 10px;
+background: url(../res/layout/thinking.png), lightgray 50% / cover no-repeat;
+background-position: 50%;
+background-size:35dvb;
+flex-shrink: 0;
+}
+
+
+.page7 .local{
+    margin-left:11%;
+    margin-top:10%;
+}
+
+.page7 .space .nome{
+    width: 379px;
+    height: 50px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Post No Bills Colombo ExtraBold;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+}
+
+
+
+/*página 8*/
+.page8 {
+    display: flex;
+    justify-content: center;
+    width: 1728px;
+    height: 1050px;
+    overflow: hidden;
+    background: #a6d3f1;
+}
+
+.page8 .produto {
+    margin-top:100px;
+    width: 536px;
+    height: 886px;
+    border-radius: 15px 0px 0px 15px;
+    margin-left: 2%;
+    flex-shrink: 0;
+}
+
+.page8 .nowast {
+    width: 536px;
+    height: 886px;
+    border-radius: 15px 0px 0px 15px;
+    background: url(../res/geral/queda.png), lightgray 50% / cover no-repeat;
+    flex-shrink: 0;
+}
+.page8 .nowast:hover {
+    width: 536px;
+    height: 886px;
+    border-radius: 15px 0px 0px 15px;
+    background: url(../res/geral/queda.png), lightgray 50% / cover no-repeat;
+    background-position: 50%;
+    background-size: 102%;
+    flex-shrink: 0;
+}
+
+.page8 .sdo {
+    width: 536px;
+    height: 886px;
+    border-radius: 15px 0px 0px 15px;
+    background: url(../res/geral/sdo.png), lightgray 50% / cover no-repeat;
+    flex-shrink: 0;
+}
+
+.page8 .sdo:hover {
+    width: 536px;
+    height: 886px;
+    border-radius: 15px 0px 0px 15px;
+    background: url(../res/geral/sdo.png), lightgray 50% / cover no-repeat;
+    background-position: 50%;
+    background-size: 102%;
+    flex-shrink: 0;
+}
+
+.page8 .pulse {
+    width: 536px;
+    height: 886px;
+    border-radius: 15px 0px 0px 15px;
+    background: url(../res/geral/pulse.png), lightgray 50% / cover no-repeat;
+    flex-shrink: 0;
+}
+
+.page8 .titulo{
+  
+    width: 517px;
+    height: 71px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Post No Bills Colombo ExtraBold;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+    margin-top:120%;
+}
+
+.page8 .titulo a{
+  
+    width: 517px;
+    height: 71px;
+    text-decoration: none;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Post No Bills Colombo ExtraBold;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+    margin-top:120%;
+}
+
+
+
+  
+
+

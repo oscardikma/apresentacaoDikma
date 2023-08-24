@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Projeções Financeiras</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+        }
+        form {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        label, input, button {
+            font-size: 16px;
+            margin: 5px;
+        }
+        button {
+            cursor: pointer;
+        }
+        #projectionsTable {
+            margin: 0 auto;
+            text-align: center;
+        }
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 0 auto;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Calculadora de Projeções Financeiras</h1>
+    
+    <form id="investmentForm">
+        <label for="investmentAmount">Valor de Investimento:</label>
+        <input type="number" id="investmentAmount" name="investmentAmount" required>
+        <button type="button" onclick="calculateProjections()">Calcular Projeções</button>
+    </form>
+    
+    <div id="projectionsTable"></div>
+    
+    <script>
+        function calculateProjections() {
+            var investmentAmount = parseFloat(document.getElementById("investmentAmount").value);
+            
+            var projectionsTableHTML = '<h2>Projeções Financeiras</h2>' +
+                '<table>' +
+                '<tr><th>Ano</th><th>Receitas</th><th>Despesas Operacionais</th><th>Investimentos</th><th>Lucro Líquido</th></tr>';
+            
+            var revenue = 500000;
+            var expenses = 350000;
+            var investments = investmentAmount;
+            var netProfit = revenue - expenses - investments;
+            
+            for (var year = 1; year <= 5; year++) {
+                projectionsTableHTML += '<tr>' +
+                    '<td>' + year + '</td>' +
+                    '<td>R$ ' + revenue.toLocaleString('pt-BR') + '</td>' +
+                    '<td>R$ ' + expenses.toLocaleString('pt-BR') + '</td>' +
+                    '<td>R$ ' + investments.toLocaleString('pt-BR') + '</td>' +
+                    '<td>R$ ' + netProfit.toLocaleString('pt-BR') + '</td>' +
+                    '</tr>';
+                
+                revenue *= 1.15; // Assuming 15% annual growth in revenue
+                expenses *= 1.10; // Assuming 10% annual growth in expenses
+                investments *= 1.05; // Assuming 5% annual growth in investments
+                netProfit = revenue - expenses - investments;
+            }
+            
+            projectionsTableHTML += '</table>';
+            
+            document.getElementById("projectionsTable").innerHTML = projectionsTableHTML;
+        }
+    </script>
+</body>
+</html>

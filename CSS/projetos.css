@@ -1,0 +1,1110 @@
+/*Geral*/
+
+@font-face {
+    font-family: font-dk;
+    src: url('../CSS/fontes/Guardians.ttf') format('truetype');
+}
+
+
+body,
+html {
+   
+    height: 100%;
+    margin: 0;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.container {
+    width: 100%;
+    margin-top: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.container section:not(.page1, .page8, .page9) {
+    background: #fdf9be;
+
+}
+
+.page1 .titulo-sdo{
+   font-family: font-dk;
+   font-size:78px;
+  padding-top: 200px;
+  color:white;
+}
+
+.titulo h1 {
+
+    flex-shrink: 0;
+    font-family: Post No Bills Colombo ExtraBold;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.page1 .titulo h1 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.400);
+    border-radius: 30px;
+    box-shadow: -50px 20px 5px rgba(23, 51, 26, 0.259);
+    flex-shrink: 0;
+    color: #ffffec;
+    font-family: font-dk;
+    font-size: 150px;
+    padding-top: 250px;
+    margin-left: 150px;
+    margin-top: 300px;
+    padding-bottom: 200px;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+
+}
+
+/*Pagina 1*/
+.page1 {
+    width: 100%;
+    height: 1117px;
+    background: url(../res/projeto-1/fundo-industria.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-shrink: 0;
+    margin-bottom: 120px;
+}
+
+
+
+/*Pagina 2*/
+
+.page2 {
+    width: 100%;
+    height: 1117px;
+    margin-bottom: 120px;
+}
+
+
+
+.page2 .titulo {
+    margin-right: 800px;
+    ;
+}
+
+
+
+.page2 .all {
+    display: flex;
+}
+
+
+
+.texto p {
+    width: 958px;
+    height: 431px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Abel;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cit {
+    display: flex;
+}
+
+
+
+.all .imagem-tema {
+    width: 641px;
+    height: 1037px;
+    margin-top: -100px;
+    margin-left: 20px;
+    border-radius: 5px;
+    background: url(../res/projeto-1/fundo-intro-projeto.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
+    flex-shrink: 0;
+}
+
+.cit p {
+    width: 745px;
+    height: 184px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Abel;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+.cit .logo {
+    width: 200px;
+    height: 171px;
+    background: url(../res/projeto-1/icone-word.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
+    flex-shrink: 0;
+}
+
+
+
+.sustentavel {
+    display: flex;
+    margin-left: 25px;
+}
+
+
+
+.sustentavel .sustentavel1 {
+    width: 423px;
+    height: 211px;
+    box-shadow: -20px 20px 25px rgba(0, 0, 0, 0.253);
+    background: url(../res/projeto-1/sustentabilidade.png), lightgray 50% / cover no-repeat;
+    flex-shrink: 0;
+}
+
+
+
+.sustentavel .intern {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.intern .sustentavel2 {
+    width: 100px;
+    height: 100px;
+    box-shadow: -20px 20px 25px rgba(0, 0, 0, 0.253);
+    background: url(../res/projeto-1/industria1.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
+    flex-shrink: 0;
+}
+
+.intern .sustentavel3 {
+    width: 100px;
+    height: 100px;
+    margin-top: 25px;
+    box-shadow: -20px 20px 25px rgba(0, 0, 0, 0.253);
+    background: url(../res/projeto-1/industria2.png), lightgray 50% / cover no-repeat;
+    flex-shrink: 0;
+}
+
+
+
+/*Pagina 3*/
+
+.page3 {
+    width: 100%;
+    height: 1117px;
+    overflow: hidden;
+    background: #FFF;
+    margin-bottom: 120px;
+}
+
+
+
+.page3 .titulo {
+    margin-left: -600px;
+}
+
+.page3 .corpo {
+    display: flex;
+}
+
+
+.page3 .texto p {
+    width: 700px;
+    margin-left: 15px;
+    ;
+
+}
+
+
+.page3 .imagens {
+    margin-left: 230px;
+    ;
+}
+
+
+
+.page3 .tema {
+    position: absolute;
+    margin-top: -190px;
+    width: 600px;
+    margin-left: 50px;
+    ;
+    height: 1100px;
+    background: url(../res/projeto-1/fundo-sobre.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
+    flex-shrink: 0;
+    z-index: 1;
+}
+
+
+.page3 .reportagem {
+    position: absolute;
+    margin-left: -50x;
+    width: 500px;
+    height: 454.118px;
+    background: url(../res/projeto-1/artigo.png), lightgray 50% / cover no-repeat;
+    flex-shrink: 0;
+    z-index: 2;
+}
+
+
+
+.page3 .grafico {
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 630px;
+    width: 500px;
+    height: 273.715px;
+    background: url(../res/projeto-1/grafico.png), lightgray 50% / cover no-repeat;
+    flex-shrink: 0;
+    z-index: 2;
+}
+
+
+
+
+
+
+/*pagina 4*/
+.page4 {
+    width: 100%;
+    height: 1117px;
+    background-color: blanchedalmond;
+    flex-shrink: 0;
+    margin-bottom: 5%;
+    padding-top: 25px;
+
+}
+
+
+.page4 .titulo h1 {
+    margin-top: -2px;
+}
+
+
+.page4 .equipe {
+    display: flex;
+}
+
+
+.page4 .devs {
+    margin-left: 60px;
+    margin-top: 15%;
+
+}
+
+
+
+.page4 .circle {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    margin-top: -10%;
+    margin-left: 10px;
+    border-radius: 300px;
+    border: 10px solid black;
+    background: #D9D9D9;
+    flex-shrink: 0;
+}
+
+
+
+.circle .ft-mc {
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    background: url(../res/projeto-1/ft-michel.jpeg), lightgray 50%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    flex-shrink: 0;
+}
+
+
+
+.circle .ft-ot {
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    background: url(../res/projeto-1/foto-otavio.png), lightgray 50%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    flex-shrink: 0;
+}
+
+
+
+.circle .ft-ca {
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    background: url(../res/projeto-1/foto-cassio.png), lightgray 50%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    flex-shrink: 0;
+}
+
+
+
+.circle .ft-os {
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    background: url(../res/projeto-1/ftoscar.jpeg), lightgray 50%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    flex-shrink: 0;
+}
+
+
+
+.page4 .box {
+    width: 325px;
+    height: 376.294px;
+    background: #D9D9D9;
+}
+
+
+
+.box .text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 170px;
+    text-align: center;
+    margin-left: 7px;
+}
+
+
+
+.text h4 {
+
+    margin-top: -25px;
+
+
+}
+
+
+
+.text .nome {
+    font-family: Abel;
+    font-size: 36px;
+    line-height: 1;
+
+}
+
+
+.text .fun {
+
+    font-family: Post No Bills Colombo ExtraBold;
+    font-size: 33px;
+    line-height: 1;
+
+}
+
+
+.text .scrum {
+
+    font-family: Abel;
+    font-size: 24px;
+    line-height: 1;
+
+}
+
+
+.page4 .triangle {
+    width: 325px;
+    height: 376.294px;
+    width: 0;
+    height: 0;
+    border-left: 162.5px solid transparent;
+    border-right: 162.5px solid transparent;
+    border-top: 100px solid #D9D9D9;
+}
+
+
+
+
+/*pagina 5*/
+.page5 {
+    width: 100%;
+    height: 1117px;
+    overflow: hidden;
+    background: #FFF;
+    margin-bottom: 120px;
+}
+
+
+.page5 .corpo {
+    display: flex;
+}
+
+
+.page5 .tema {
+    width: 616px;
+    height: 1117px;
+    margin-top: -200px;
+    border-radius: 15px 0px 0px 0px;
+    background: url(../res/projeto-1/tema-problemas.png), lightgray 50% / cover no-repeat;
+    flex-shrink: 0;
+}
+
+.page5 .problemas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+
+.problemas h3 {
+    width: 470px;
+    height: 170px;
+    margin-left: 20px;
+    border-radius: 15px;
+    border: 5px solid #000;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.25);
+    background: #000;
+    flex-shrink: 0;
+    color: white;
+
+}
+
+
+/*pagina 6*/
+.page6 {
+    width: 100%;
+    height: 1117px;
+    overflow: hidden;
+    background: #FFF;
+    margin-bottom: 120px;
+}
+
+.page6 .corpo {
+    display: flex;
+}
+
+
+.page6 .tema {
+    width: 616px;
+    height: 1117px;
+    margin-top: -200px;
+    border-radius: 15px 0px 0px 0px;
+    background: url(../res/projeto-1/tema-problemas.png), lightgray 50% / cover no-repeat;
+    flex-shrink: 0;
+}
+
+
+.page6 .problemas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.problemas h3 {
+    width: 470px;
+    height: 170px;
+    margin-left: 20px;
+    border-radius: 15px;
+    border: 5px solid #000;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.25);
+    background: #000;
+    flex-shrink: 0;
+    color: white;
+
+}
+
+
+
+/*Pagina 7*/
+.page7 {
+    width: 100%;
+    height: 1117px;
+    overflow: hidden;
+    background: #FFF;
+    margin-bottom: 120px;
+}
+
+
+.page7 .corpo {
+    display: flex;
+}
+
+
+.page7 .tema {
+    width: 616px;
+    height: 1100px;
+    margin-top: -200px;
+    margin-left: 20px;
+    border-radius: 15px 0px 0px 0px;
+    background: url(), lightgray 50% / cover no-repeat;
+    flex-shrink: 0;
+}
+
+
+.page7 .problemas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+
+.problemas h3 {
+    width: 470px;
+    height: 170px;
+    margin-left: 20px;
+    border-radius: 15px;
+    border: 5px solid #000;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.25);
+    background: #000;
+    flex-shrink: 0;
+    color: white;
+
+}
+
+
+
+
+/*page8*/
+.page8 {
+    width: 100%;
+    height: 1203px;
+    background: url(../res/projeto-1/fundo-pagina-investimentos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+    margin-bottom: 120px;
+}
+
+
+.page8 .titulo {
+    /* nada */
+
+}
+
+
+.page8 .tabelas {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+
+}
+
+
+.tabelas .borda1 {
+    width: 720px;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 15px 15px 0px 0px;
+    background: #1F2D49;
+    color:white;
+    font-size: 30px;
+    flex-shrink: 0;
+}
+
+
+.tabelas .borda2 {
+    width: 720px;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 15px 15px 0px 0px;
+    background: #1F2D49;
+    color:white;
+    font-size: 30px;
+    flex-shrink: 0;
+}
+
+
+
+.page8 .table1 {
+    width: 720px;
+    height: 200px;
+    border-radius: 0px 0px 15px 15px;
+    background: rgba(255, 255, 255, 0.90);
+    flex-shrink: 0;
+    margin-bottom: 10px;
+
+}
+
+
+.page8 .tabelas table td {
+    border-bottom: 2px solid black;
+    width: 708.051px;
+    font-size:20px;
+    height: 1px;
+}
+
+
+.page8 .tabelas table{
+    padding-top:20px;
+   
+}
+
+
+.tabelas .info{
+    margin-top:60px;
+}
+
+    .page8  .table2 {
+        width: 720px;
+        height: 150px;
+        border-radius: 0px 0px 15px 15px;
+        background: rgb(255, 255, 255);
+        flex-shrink: 0;
+    }
+
+    .page8 .tabelas table td {
+        border-bottom: 2px solid black;
+        width: 708.051px;
+
+        height: 1px;
+    }
+
+
+
+
+    /*page 9*/
+    .page9 {
+        width: 100%;
+        height: 1112px;
+        background: url(../res/projeto-1/fund-pagina8.png), lightgray 0 / cover no-repeat;
+        flex-shrink: 0;
+        margin-bottom: 120px;
+    }
+
+    .page9 .titulo {
+        width: 656px;
+        height: 75px;
+        flex-shrink: 0;
+        color: #FFF;
+        font-family: Post No Bills Colombo ExtraBold;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+
+    .page9 .planos {
+        display: flex;
+        margin-left: 250px;
+        ;
+        margin-top: 250px;
+    }
+
+
+    .planos .pln {
+        width: 310px;
+        height: 531px;
+        border-radius: 15px;
+        background: #1E1E1E;
+        flex-shrink: 0;
+        color: #fff;
+        margin-left: 100px;
+    }
+
+    .planos .plano-A {
+        width: 310px;
+        height: 531px;
+        border-radius: 15px;
+        box-shadow: 0px 4px 40px 0px #FB9804;
+        background: #1E1E1E;
+        flex-shrink: 0;
+        color: #fff;
+    }
+
+
+    .planos .imagem {
+        width: 231px;
+        height: 233px;
+        margin-left: 40px;
+        border-radius: 15px;
+
+        background: url(../res/projeto-1/camaleao-plano.png), no-repeat;
+        background-size: cover;
+        flex-shrink: 0;
+    }
+
+
+    .pln .esp {
+        width: 182px;
+        height: 38px;
+        margin-left: 65px;
+        border-radius: 15px;
+        background: #FB9804;
+        flex-shrink: 0;
+        color: black;
+        padding-top: 20px;
+    }
+
+    .pln .description {
+        margin-top: 100px;
+    }
+
+
+    /* pagina 10 */
+    .page10,
+    .page11 {
+        width: 100%;
+        height: 1117px;
+        overflow: hidden;
+        background: #FFF;
+        margin-bottom: 120px;
+    }
+
+    .page10 .titulo {
+        width: 730px;
+        height: 75px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Post No Bills Colombo ExtraBold;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .page10 .nacionais {
+        display: grid;
+        /* 2 rows 5 coluns */
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        margin-left: 110px;
+
+    }
+
+    .nacionais .box {
+        width: 200px;
+        height: 200px;
+        border-radius: 15px;
+        background: url(), lightgray 50% / cover no-repeat;
+        flex-shrink: 0;
+        margin-top: 100px;
+    }
+
+
+    .page10 .button {
+        width: 100px;
+        height: 100px;
+        margin-left: 100rem;
+        background: url(../res/empresas/money.png), rgba(188, 15, 15, 0) 50% / cover no-repeat;
+        flex-shrink: 0;
+        cursor: pointer;
+    }
+
+
+    /*controle de visualização de poppup*/
+    .page10 .popup {
+        display: none;
+    }
+
+    .page10 .pop .close {
+        margin-left: 530px;
+    }
+
+    .page10 .pop .close h4 {
+        color: red;
+        width: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+        text-align: center;
+        background-color: #ffffec60;
+        cursor: pointer;
+        border-radius: 5px;
+
+    }
+
+    .page10 .pop {
+        position: absolute;
+        width: 576px;
+        height: 919px;
+        border-radius: 10px;
+        background: #00000096;
+        margin-left: 100px;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .page10 .pop .titulo2 {
+        width: 359px;
+        height: 43px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.30);
+        background: rgba(30, 30, 30, 0.897);
+        margin-left: 100px;
+        margin-top: 25px;
+        padding-bottom: 25px;
+
+    }
+
+    .page10 .pop .titulo2 h3 {
+        width: 325px;
+        height: 39px;
+        font-family: Abel;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+        color: #FFF;
+        margin-top: 20px;
+
+
+    }
+
+    .pop .heads {
+        display: flex;
+        justify-content: center;
+    }
+
+    .pop .heads h6 {
+        width: 132px;
+        height: 40px;
+        border-radius: 10px;
+        background: #FB9804;
+        font-size: 20px;
+        margin-left: 10px;
+        padding-top: 20px;
+        cursor: pointer;
+    }
+
+    .pop .kpis {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: px;
+        margin-left: 20px;
+    }
+
+    .kpis .kpi {
+        width: 179px;
+        height: 172px;
+        border-radius: 15px;
+        background: rgba(223, 213, 123, 0.774);
+        margin-bottom: 50px;
+    }
+
+    .kpis #kpi-ti {
+        margin-left: 180px;
+    }
+
+    .kpis #kpi-tir H3 {
+        margin-left: 180px;
+    }
+
+
+    .pop .table .titulo-table {
+        width: 467px;
+        height: 49px;
+        border-radius: 15px 15px 0px 0px;
+        background: #01102F;
+
+    }
+
+
+    .pop .table .titulo-table h3 {
+        width: 272px;
+        height: 39px;
+        color: #FFF;
+        font-family: Abel;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 90px;
+
+    }
+
+    .pop .table {
+        margin-left: 50px;
+    }
+
+    .pop .table .tabela {
+        width: 467px;
+        height: 102px;
+        background: #1e1e1e;
+    }
+
+
+    /*pagina 10 fotos das empresas*/
+
+    /* arcelor */
+    .nacionais .org1 {
+        width: 200px;
+        height: 200px;
+        border-radius: 15px;
+        background: url(../res/empresas/arcelor.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex-shrink: 0;
+    }
+
+    /* cbmm */
+    .nacionais .org2 {
+        width: 200px;
+        height: 200px;
+        border-radius: 15px;
+        background: url(../res/empresas/cbmm.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex-shrink: 0;
+    }
+
+    /* ternium */
+    .nacionais .org3 {
+        width: 200px;
+        height: 200px;
+        border-radius: 15px;
+        background: url(../res/empresas/ternium.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex-shrink: 0;
+    }
+
+    /* usiminas */
+    .nacionais .org4 {
+        width: 200px;
+        height: 200px;
+        border-radius: 15px;
+        background: url(../res/empresas/usiminas.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex-shrink: 0;
+    }
+
+    /* aperam */
+    .nacionais .org5 {
+        width: 200px;
+        height: 200px;
+        border-radius: 15px;
+        background: url(../res/empresas/apream.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex-shrink: 0;
+    }
+
+    /* csn */
+    .nacionais .org6 {
+        width: 150px;
+        height: 150px;
+        border-radius: 15px;
+        background: url(../res/empresas/csn.png) rgb(255, 255, 255) 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex-shrink: 0;
+    }
+
+    /* belgo */
+    .nacionais .org7 {
+        width: 150px;
+        height: 150px;
+        border-radius: 15px;
+        background: #FFF;
+
+        background: url(../res/empresas/belgo.png), rgb(255, 255, 255) 50%;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        flex-shrink: 0;
+    }
+
+    /* cba */
+    .nacionais .org8 {
+        width: 200px;
+        height: 108.148px;
+        background: url(../res/empresas/cba.png), lightgray 50% / cover no-repeat;
+        flex-shrink: 0;
+    }
+
+    /* suzano */
+    .nacionais .org9 {
+        width: 200px;
+        height: 200px;
+        border-radius: 15px;
+        background: url(../res/empresas/suzano.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex-shrink: 0;
+    }
+
+    /* gerdau */
+    .nacionais .org10 {
+        width: 200px;
+        height: 200px;
+        border-radius: 15px;
+        background: url(../res/empresas/gerdau.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex-shrink: 0;
+    }
+
+
+
+
+
+
+
+
+
+    /*pagina 11*/
+    .page11 .internacionais {
+        display: grid;
+        /* 2 rows 5 coluns */
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        margin-left: 110px;
+        width: 1500px;
+        height: 800px;
+        box-shadow: 20px 10px 20px rgba(107, 98, 98, 0.589);
+        background: url(../res/empresas/painel-interncional.png), lightgray 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+        margin-top: 15px;
+        flex-shrink: 0;
+
+    }
+
+
+    .internacionais .box {
+        width: 200px;
+        height: 200px;
+        border-radius: 15px;
+        background: url(), lightgray 50% / cover no-repeat;
+        flex-shrink: 0;
+        margin-top: 150px;
+    }
+
+
+    .page11 .titulo {
+        width: 775px;
+        height: 75px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Post No Bills Colombo ExtraBold;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+
+
+
+
+
+    .page12,
+    .page13 {
+        display: none;
+    }

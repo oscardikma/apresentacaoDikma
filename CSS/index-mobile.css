@@ -1,0 +1,102 @@
+/* Para dispositivos móveis */
+@media only screen and (max-width: 768px) {
+
+    body,
+    html {
+        margin: auto;
+        padding: auto;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 50px;
+    }
+
+    main section {
+        position: static;
+        margin-bottom: 100px;
+    }
+
+    .indice {
+        display: none;
+    }
+
+    /*primeira pagina*/
+    header {
+        background: url(/asdf/);
+        background-repeat: no-repeat;
+        background-color: rgb(70, 4, 4);
+        ;
+        padding: 0;
+        margin-bottom: auto;
+    }
+
+    #dikma {
+        font-size: 25px;
+        margin-left: 10px;
+        z-index: 2;
+    }
+
+    #digital {
+        margin-left: 10px;
+    }
+
+    #icone {
+        display: none;
+    }
+
+    .sobre {
+        width: 20px;
+        margin-top: -20px;
+        margin-left: -5%;
+        text-align: center;
+        display: flex;
+    }
+
+    /*imagem do astronauta*/
+    .sobre .astronauta {
+        display: none;
+    }
+
+    .valores {
+        display: flex;
+        flex-direction: column;
+        margin-top: 25%;
+
+
+    }
+
+    .sobre h2 {
+        height:auto;
+        overflow: hidden;
+        margin-top: -200px;
+        background: #FFF;
+        color: #000;
+        font-size: 20px;
+        flex-shrink: 0;
+    
+    }
+
+    .sobre p{
+        font-size: 15px;  
+        width:200px;
+    }
+    .corpo p {
+        font-size: 15px;
+    }
+
+}
+
+
+
+
+
+
+/* Para telas maiores */
+@media only screen and (min-width: 1200px) {
+    /* Adicione aqui os estilos específicos para telas maiores */
+}
+
+/* Estilos gerais para todos os tamanhos de tela */
