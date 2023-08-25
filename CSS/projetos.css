@@ -670,7 +670,6 @@ html {
     .page8 .tabelas table td {
         border-bottom: 2px solid black;
         width: 708.051px;
-
         height: 1px;
     }
 
@@ -793,13 +792,14 @@ html {
         background: url(), lightgray 50% / cover no-repeat;
         flex-shrink: 0;
         margin-top: 100px;
+        cursor:pointer;
     }
 
 
     .page10 .button {
         width: 100px;
         height: 100px;
-        margin-left: 100rem;
+        margin-left: 86rem;
         background: url(../res/empresas/money.png), rgba(188, 15, 15, 0) 50% / cover no-repeat;
         flex-shrink: 0;
         cursor: pointer;
@@ -833,10 +833,11 @@ html {
         height: 919px;
         border-radius: 10px;
         background: #00000096;
-        margin-left: 100px;
+        margin-left: 30rem;
         margin-top: 100px;
         display: flex;
         flex-direction: column;
+       
     }
 
     .page10 .pop .titulo2 {
@@ -897,12 +898,28 @@ html {
         margin-bottom: 50px;
     }
 
+    .kpi h3{
+       font-size: 33px;
+    }
+
+    .kpi .titulo3{
+        font-size:  30px ;
+    }
+    .kpis #kpi-roi{
+        margin-left: 70px;
+    }
+    .kpis #kpi-pay{
+        margin-left: -70px;
+    }
+
     .kpis #kpi-ti {
-        margin-left: 180px;
+        margin-left: 175px;
+        margin-top:-35px
     }
 
     .kpis #kpi-tir H3 {
         margin-left: 180px;
+        
     }
 
 
@@ -928,14 +945,30 @@ html {
 
     }
 
+    /*tabela da popup*/
     .pop .table {
         margin-left: 50px;
+        margin-top:-50px;
     }
 
     .pop .table .tabela {
         width: 467px;
         height: 102px;
-        background: #1e1e1e;
+        background: #383636;
+    }
+
+   #fatMensal, #fatAnual{
+        border-left: 1px solid white;
+   }
+   #lb2, #fatMensal{
+        border-bottom: 1px solid white;
+   }
+
+    .table  table td{
+        width:302px;
+        margin-left:3px;
+      font-size: 28px;
+      color:white;
     }
 
 

@@ -18,12 +18,15 @@ function agrupar(event) {
 
   if (empresaClicada.classList.contains('clicada')) {
       quantidade--;
+      desmarcar(empresaClicada.id)
   } else {
       quantidade++;
+      marcar(empresaClicada.id)
+      
   }
 
   empresaClicada.classList.toggle('clicada');
- alert('Total: ' + quantidade);
+
 }
 /**adcionando o evento a todas as empresas */
 document.getElementById('org1').addEventListener('click',agrupar,false)
@@ -35,6 +38,17 @@ document.getElementById('org6').addEventListener('click',agrupar,false)
 document.getElementById('org7').addEventListener('click',agrupar,false)
 document.getElementById('org8').addEventListener('click',agrupar,false)
 document.getElementById('org9').addEventListener('click',agrupar,false)
+
+
+/**modificar o estilo da empresa selecionada */
+function marcar(id){
+  document.getElementById(id).style.boxShadow = '0px 4px 40px 0px rgba(240, 126, 20, 0.63)';
+}
+
+/**Desmarcar a empresa */
+function desmarcar(id){
+  document.getElementById(id).style.boxShadow = 'none';
+}
 
 
 
@@ -60,14 +74,19 @@ var btn_close = document.getElementById('close')
 btn_close.addEventListener('click', close, true)
 
 //procedimento de calculo roi
-var btn_plane1 = document.getElementById('plane1')
-var btn_plane2 = document.getElementById('plane2')
-var btn_plane3 = document.getElementById('plane3')
+const btn_plane1 = document.getElementById('plane1')
+const btn_plane2 = document.getElementById('plane2')
+const btn_plane3 = document.getElementById('plane3')
 
 //indicadores
 const roi = document.getElementById('ROI')
 const payback = document.getElementById('PAYBACK')
 const tir = document.getElementById('TIR')
+
+//tabela do faturamento
+const fat_mes =  document.getElementById('fatMensal')
+const fat_ano =  document.getElementById('fatAnual')
+
 
 /**Calculo de roi  */
 function return_Roi(tempo,valor,investimento) {
@@ -141,6 +160,10 @@ function calculate_economy() {
     let investimento = 581749.00
     let receita = 15000.00 
     receita =receita*quantidade
+    let faturamentoMes = 'R$' + receita.toFixed(2).replace('.', ',');
+    let faturamentoAno = 'R$' + (receita * 12).toFixed(2).replace('.', ',');
+    fat_mes.innerText = faturamentoMes
+    fat_ano.innerText=faturamentoAno
     let tempo = 60
     const cashFlows = [investimento*-1, receita,receita,receita,receita]
     return_Roi(tempo,receita,investimento)
@@ -156,6 +179,10 @@ function calculate_real() {
     let receita = 30000.00 
     receita = receita*quantidade
     let tempo = 60
+    let faturamentoMes = 'R$' + receita.toFixed(2).replace('.', ',');
+    let faturamentoAno = 'R$' + (receita * 12).toFixed(2).replace('.', ',');
+    fat_mes.innerText = faturamentoMes
+    fat_ano.innerText=faturamentoAno
     const cashFlows = [investimento*-1, receita,receita,receita,receita]
     return_Roi(tempo,receita,investimento)
     return_Payback(investimento, receita)
@@ -170,6 +197,10 @@ function calculate_optmize() {
     let receita = 40000.00
     receita= receita*quantidade
     let tempo =60
+    let faturamentoMes = 'R$' + receita.toFixed(2).replace('.', ',');
+    let faturamentoAno = 'R$' + (receita * 12).toFixed(2).replace('.', ',');
+    fat_mes.innerText = faturamentoMes
+    fat_ano.innerText=faturamentoAno
     const cashFlows = [investimento*-1, receita,receita,receita,receita]
     return_Roi(tempo,receita,investimento)
     return_Payback(investimento, receita)
