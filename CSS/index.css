@@ -9,8 +9,8 @@
 body,
 html {
     height: 100%;
-    margin:0;
-    margin-top:-50%;
+    margin: 0;
+    margin-top: -50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,13 +21,23 @@ html {
     text-align: center;
 }
 
+.container section {
+    width: 1728px;
+    height: 1117px;
+    margin-bottom: 120px;
+    background-color: #f8dfb980;
+}
 
+.titulo h1 {
+    font-family: Post No Bills Colombo ExtraBold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
 
 /*Pagina 1 */
 .page1 {
-    width: 1728px;
-    height: 1117px;
-    overflow: hidden;
     box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.25) inset;
     background: #D9D9D9;
     background: url(../res/geral/fundo-titulo.png), lightgray -1.783px 9.375px / 98.651% 97.953% no-repeat;
@@ -47,6 +57,7 @@ html {
     backdrop-filter: blur(0px);
 }
 
+
 .page1 .icone {
     width: 702px;
     height: 825px;
@@ -58,12 +69,8 @@ html {
 /*Pagina 2 */
 .page2 {
     display: flex;
-    width: 1728px;
-    height: 1117px;
     overflow: hidden;
     background: #89aab873;
-    border: 1px solid red;
-    margin-bottom: 5%;
 }
 
 .page2 .sobre {
@@ -172,14 +179,9 @@ html {
 .page3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 1728px;
-    height: 1117px;
     background: url(../res/geral/space-fundo.jpg), lightgray 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1px solid red;
-    margin-bottom: 5%;
-
 }
 
 .page3 .report1 {
@@ -226,12 +228,8 @@ html {
 .page4 {
     display: flex;
     justify-content: center;
-    width: 1728px;
-    height: 1117px;
     overflow: hidden;
     background: #FFF;
-    border: 1px solid red;
-    margin-bottom: 5%;
 }
 
 
@@ -334,12 +332,8 @@ html {
 .page5 {
     display: flex;
     flex-direction: row;
-    width: 1728px;
-    height: 1135px;
     background: url(../res/governança/fundoGov.png), lightgray 50% / cover no-repeat;
     flex-shrink: 0;
-    margin-bottom: 5%;
-
 }
 
 .page5 .gov {
@@ -406,8 +400,6 @@ html {
 
 .page6 {
     display: flex;
-    width: 1728px;
-    height: 1135px;
     background: url(../res/metas/fundoprojeção.png), lightgray 50% / cover no-repeat;
     flex-shrink: 0;
 
@@ -423,49 +415,52 @@ html {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     background: linear-gradient(180deg, #01102F 0%, rgba(1, 16, 47, 0.801) 42.36%, rgba(1, 16, 47, 0.70) 65.30%, rgba(1, 16, 47, 0.79) 97.92%);
     flex-shrink: 0;
-    color:white;
+    color: white;
 }
 
 
 .page6 .time .titulo {
     width: 250px;
-    border-radius:5px;
+    border-radius: 5px;
     background-color: #FB9804;
     flex-shrink: 0;
-    margin-left:25%;
-    margin-bottom: 100px;;
+    margin-left: 25%;
+    margin-bottom: 100px;
+    ;
 }
 
-.time .titulo h1{
-    color:black;
-    padding-top:5px;
+.time .titulo h1 {
+    color: black;
+    padding-top: 5px;
     padding-bottom: 5px;
-    
+
 }
 
-.page6 .projetos{
-    display:flex;
+.page6 .projetos {
+    display: flex;
     justify-content: left;
     margin-bottom: 20px;
-    margin-left:50px;
+    margin-left: 50px;
 
 }
 
 
 /*ano 1*/
-.ano1 .projetos .imagem1{
+.ano1 .projetos .imagem1 {
     width: 120px;
     height: 120px;
     background: url(../res/metas/quedazero.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
     flex-shrink: 0;
 }
-.ano1 .projetos .imagem2{
+
+.ano1 .projetos .imagem2 {
     width: 120px;
     height: 120px;
     background: url(../res/metas/sdo.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
     flex-shrink: 0;
 }
-.ano1 .projetos .imagem3{
+
+.ano1 .projetos .imagem3 {
     width: 120px;
     height: 120px;
     background: url(../res/metas/equipe-agil.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
@@ -473,19 +468,21 @@ html {
 }
 
 /*ano 2*/
-.ano2 .projetos .imagem1{
+.ano2 .projetos .imagem1 {
     width: 120px;
     height: 120px;
     background: url(../res/metas/espaço.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
     flex-shrink: 0;
 }
-.ano2 .projetos .imagem2{
+
+.ano2 .projetos .imagem2 {
     width: 120px;
     height: 120px;
     background: url(../res/metas/sds.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
     flex-shrink: 0;
 }
-.ano2 .projetos .imagem3{
+
+.ano2 .projetos .imagem3 {
     width: 120px;
     height: 120px;
     background: url(../res/metas/pulse.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
@@ -493,43 +490,42 @@ html {
 }
 
 /*ano 3*/
-.ano3 .projetos .imagem1{
+.ano3 .projetos .imagem1 {
     width: 120px;
     height: 120px;
     background: url(../res/metas/software-propietario.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
     flex-shrink: 0;
 }
-.ano3 .projetos .imagem2{
+
+.ano3 .projetos .imagem2 {
     width: 120px;
     height: 120px;
     background: url(../res/metas/expand.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
     flex-shrink: 0;
 }
-.ano3 .projetos .imagem3{
+
+.ano3 .projetos .imagem3 {
     width: 120px;
     height: 120px;
     background: url(../res/metas/plataforma-cursos.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
     flex-shrink: 0;
 }
 
-.projetos{
- 
-margin-top:100px;
+.projetos {
+
+    margin-top: 100px;
 }
 
-.projetos .descricao{
+.projetos .descricao {
     margin-left: 20px;
-    margin-top:30px;
+    margin-top: 30px;
 }
 
 
 /*pagina 7*/
 .page7 {
-    width: 1728px;
-    height: 1135px;
     background: url(../res/layout/fundo_espaço.png), lightgray 50% / cover no-repeat;
     flex-shrink: 0;
-    margin-bottom: 5%;
 }
 
 .page7 .titulo {
@@ -561,7 +557,7 @@ margin-top:100px;
 .page7 .space {
     width: 423px;
     height: 344px;
-  
+
     margin-top: 25%;
     border-radius: 15px;
     border: 1px solid rgba(0, 0, 0, 0.10);
@@ -572,128 +568,129 @@ margin-top:100px;
 
 
 /*local 1*/
-.page7 .sala1 .local{
-width: 324px;
-height: 200px;
-border-radius: 10px;
-background: url(../res/layout/pesquisa.png), lightgray 50% / cover no-repeat;
-flex-shrink: 0;
+.page7 .sala1 .local {
+    width: 324px;
+    height: 200px;
+    border-radius: 10px;
+    background: url(../res/layout/pesquisa.png), lightgray 50% / cover no-repeat;
+    flex-shrink: 0;
 }
-.page7 .sala1 .local:hover{
-width: 324px;
-height: 200px;
-border-radius: 10px;
-background: url(../res/layout/pesquisa.png), lightgray 50% /  no-repeat;
-background-position: 50%;
-background-size:35dvb;
-flex-shrink: 0;
+
+.page7 .sala1 .local:hover {
+    width: 324px;
+    height: 200px;
+    border-radius: 10px;
+    background: url(../res/layout/pesquisa.png), lightgray 50% / no-repeat;
+    background-position: 50%;
+    background-size: 35dvb;
+    flex-shrink: 0;
 }
 
 /*local 2*/
-.page7 .sala2 .local{
-width: 324px;
-height: 200px;
-border-radius: 10px;
-background: url(../res/layout/lab-dev.png), lightgray 50% / cover no-repeat;
-flex-shrink: 0;
+.page7 .sala2 .local {
+    width: 324px;
+    height: 200px;
+    border-radius: 10px;
+    background: url(../res/layout/lab-dev.png), lightgray 50% / cover no-repeat;
+    flex-shrink: 0;
 }
 
-.page7 .sala2 .local:hover{
-width: 324px;
-height: 200px;
-border-radius: 10px;
-background: url(../res/layout/lab-dev.png), lightgray 50% / cover no-repeat;
-background-position: 50%;
-background-size:35dvb;
-flex-shrink: 0;
+.page7 .sala2 .local:hover {
+    width: 324px;
+    height: 200px;
+    border-radius: 10px;
+    background: url(../res/layout/lab-dev.png), lightgray 50% / cover no-repeat;
+    background-position: 50%;
+    background-size: 35dvb;
+    flex-shrink: 0;
 }
 
 /*local 3*/
-.page7 .sala3 .local{
-width: 324px;
-height: 200px;
-border-radius: 10px;
-background: url(../res/layout/focus-group.png), lightgray 50% / cover no-repeat;
-flex-shrink: 0;
+.page7 .sala3 .local {
+    width: 324px;
+    height: 200px;
+    border-radius: 10px;
+    background: url(../res/layout/focus-group.png), lightgray 50% / cover no-repeat;
+    flex-shrink: 0;
 }
 
-.page7 .sala3 .local:hover{
-width: 324px;
-height: 200px;
-border-radius: 10px;
-background: url(../res/layout/focus-group.png), lightgray 50% / cover no-repeat;
-background-position: 50%;
-background-size:35dvb;
-flex-shrink: 0;
+.page7 .sala3 .local:hover {
+    width: 324px;
+    height: 200px;
+    border-radius: 10px;
+    background: url(../res/layout/focus-group.png), lightgray 50% / cover no-repeat;
+    background-position: 50%;
+    background-size: 35dvb;
+    flex-shrink: 0;
 }
 
 
 /*local 4*/
-.page7 .sala4 .local{
-width: 324px;
-height: 200px;
-border-radius: 10px;
-background: url(../res/layout/recreation.png), lightgray 50% / cover no-repeat;
-flex-shrink: 0;
+.page7 .sala4 .local {
+    width: 324px;
+    height: 200px;
+    border-radius: 10px;
+    background: url(../res/layout/recreation.png), lightgray 50% / cover no-repeat;
+    flex-shrink: 0;
 }
 
-.page7 .sala4 .local:hover{
-width: 324px;
-height: 200px;
-border-radius: 10px;
-background: url(../res/layout/recreation.png), lightgray 50% / cover no-repeat;
-background-position: 50%;
-background-size:35dvb;
-flex-shrink: 0;
+.page7 .sala4 .local:hover {
+    width: 324px;
+    height: 200px;
+    border-radius: 10px;
+    background: url(../res/layout/recreation.png), lightgray 50% / cover no-repeat;
+    background-position: 50%;
+    background-size: 35dvb;
+    flex-shrink: 0;
 }
 
 
 /*local 5*/
-.page7 .sala5 .local{
-width: 324px;
-height: 200px;
-border-radius: 10px;
-background: url(../res/layout/dikmatec.png), lightgray 50% / cover no-repeat;
-flex-shrink: 0;
+.page7 .sala5 .local {
+    width: 324px;
+    height: 200px;
+    border-radius: 10px;
+    background: url(../res/layout/dikmatec.png), lightgray 50% / cover no-repeat;
+    flex-shrink: 0;
 }
 
-.page7 .sala5 .local:hover{
-width: 324px;
-height: 200px;
-border-radius: 10px;
-background: url(../res/layout/dikmatec.png), lightgray 50% / cover no-repeat;
-background-position: 50%;
-background-size:35dvb;
-flex-shrink: 0;
+.page7 .sala5 .local:hover {
+    width: 324px;
+    height: 200px;
+    border-radius: 10px;
+    background: url(../res/layout/dikmatec.png), lightgray 50% / cover no-repeat;
+    background-position: 50%;
+    background-size: 35dvb;
+    flex-shrink: 0;
 }
 
 
 /*local 6*/
-.page7 .sala6 .local{
-width: 324px;
-height: 200px;
-border-radius: 10px;
-background: url(../res/layout/thinking.png), lightgray 50% / cover no-repeat;
-flex-shrink: 0;
+.page7 .sala6 .local {
+    width: 324px;
+    height: 200px;
+    border-radius: 10px;
+    background: url(../res/layout/thinking.png), lightgray 50% / cover no-repeat;
+    flex-shrink: 0;
 }
 
-.page7 .sala6 .local:hover{
-width: 324px;
-height: 200px;
-border-radius: 10px;
-background: url(../res/layout/thinking.png), lightgray 50% / cover no-repeat;
-background-position: 50%;
-background-size:35dvb;
-flex-shrink: 0;
+.page7 .sala6 .local:hover {
+    width: 324px;
+    height: 200px;
+    border-radius: 10px;
+    background: url(../res/layout/thinking.png), lightgray 50% / cover no-repeat;
+    background-position: 50%;
+    background-size: 35dvb;
+    flex-shrink: 0;
 }
 
 
-.page7 .local{
-    margin-left:11%;
-    margin-top:10%;
+.page7 .local {
+    margin-left: 11%;
+    margin-top: 10%;
 }
 
-.page7 .space .nome{
+.page7 .space .nome {
     width: 379px;
     height: 50px;
     flex-shrink: 0;
@@ -712,14 +709,12 @@ flex-shrink: 0;
 .page8 {
     display: flex;
     justify-content: center;
-    width: 1728px;
-    height: 1050px;
     overflow: hidden;
     background: #a6d3f1;
 }
 
 .page8 .produto {
-    margin-top:100px;
+    margin-top: 100px;
     width: 536px;
     height: 886px;
     border-radius: 15px 0px 0px 15px;
@@ -734,6 +729,7 @@ flex-shrink: 0;
     background: url(../res/geral/queda.png), lightgray 50% / cover no-repeat;
     flex-shrink: 0;
 }
+
 .page8 .nowast:hover {
     width: 536px;
     height: 886px;
@@ -770,8 +766,8 @@ flex-shrink: 0;
     flex-shrink: 0;
 }
 
-.page8 .titulo{
-  
+.page8 .titulo {
+
     width: 517px;
     height: 71px;
     flex-shrink: 0;
@@ -782,11 +778,10 @@ flex-shrink: 0;
     font-weight: 800;
     line-height: normal;
     text-align: center;
-    margin-top:120%;
+    margin-top: 120%;
 }
 
-.page8 .titulo a{
-  
+.page8 .titulo a {
     width: 517px;
     height: 71px;
     text-decoration: none;
@@ -798,11 +793,92 @@ flex-shrink: 0;
     font-weight: 800;
     line-height: normal;
     text-align: center;
-    margin-top:120%;
+    margin-top: 120%;
 }
 
+/*paginas criadas apos a criação inicial*/
+.pageflux .imagem {
+    width: 1000px;
+    height: 886px;
+    margin-left: 350px;
+    border-radius: 15px 0px 0px 15px;
+    background: url(../res/geral/fluxograma.jpeg), lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 10%;
 
+    flex-shrink: 0;
+}
 
+.matriz .swot:not(.titulo-matriz){
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1728px;
+    height: 1000px;
+    background: url(../res/swot/sowt.jpeg)50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    flex-shrink: 0;
+
+}
+
+.matriz .titulo-matriz {
+    position: absolute;
+    margin-left:500px;
+    margin-top: 5px;
+    z-index: 1;
+   
+}
+
+.matriz .matriz-swot{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.matriz-swot {
+    color:white;
+    font-weight: bold;
+   z-index: 1;
+   justify-content: center;
+   margin-left:150px;
   
+}
 
+.matriz-swot li{
+    list-style: none;
+}
 
+.matriz-swot .forcas{
+    color:white;
+    width:300px;
+    margin-left:450px;
+    margin-top:50px;
+    font-weight: bold;
+    z-index: 1;
+   
+}
+.matriz-swot .fraquezas{
+    color:white;
+    width:300px;
+    margin-left:150px;
+    margin-top:50px;
+    font-weight: bold;
+   z-index: 1;
+  
+   
+}
+.matriz-swot .oportunidades{
+    color:white;
+    font-weight: bold;
+   z-index: 1;
+  
+   
+}
+.matriz-swot .ameacas{
+    color:white;
+    font-weight: bold;
+   z-index: 1;
+   
+   
+}

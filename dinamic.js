@@ -88,6 +88,9 @@ const fat_mes =  document.getElementById('fatMensal')
 const fat_ano =  document.getElementById('fatAnual')
 
 
+  
+
+
 /**Calculo de roi  */
 function return_Roi(tempo,valor,investimento) {
   let receita = tempo * valor;
@@ -168,7 +171,7 @@ function calculate_economy() {
     let faturamentoAno = 'R$' + (receita * 12).toFixed(2).replace('.', ',');
     fat_mes.innerText = faturamentoMes
     fat_ano.innerText=faturamentoAno
-    let tempo = 60
+    let tempo = document.getElementById('tmp').value
     const cashFlows = [investimento*-1, receita,receita,receita,receita]
     return_Roi(tempo,receita,investimento)
     return_Payback(investimento, receita)
@@ -182,7 +185,7 @@ function calculate_real() {
     let investimento = 581749.00
     let receita = 30000.00 
     receita = receita*quantidade
-    let tempo = 60
+    let tempo = document.getElementById('tmp').value
     let faturamentoMes = 'R$' + receita.toFixed(2).replace('.', ',');
     let faturamentoAno = 'R$' + (receita * 12).toFixed(2).replace('.', ',');
     fat_mes.innerText = faturamentoMes
@@ -200,7 +203,7 @@ function calculate_optmize() {
     let investimento = 581749.00
     let receita = 40000.00
     receita= receita*quantidade
-    let tempo =60
+    let tempo = document.getElementById('tmp').value
     let faturamentoMes = 'R$' + receita.toFixed(2).replace('.', ',');
     let faturamentoAno = 'R$' + (receita * 12).toFixed(2).replace('.', ',');
     fat_mes.innerText = faturamentoMes
