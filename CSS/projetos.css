@@ -458,7 +458,7 @@ html {
     height: 1117px;
     margin-top: -200px;
     border-radius: 15px 0px 0px 0px;
-    background: url(../res/projeto-1/tema-problemas.png), lightgray 50% / cover no-repeat;
+    background: url(../res/projeto-1/porblemas.png) lightgray 50% / cover no-repeat;
     flex-shrink: 0;
 }
 
@@ -502,7 +502,7 @@ html {
     height: 1117px;
     margin-top: -200px;
     border-radius: 15px 0px 0px 0px;
-    background: url(../res/projeto-1/tema-problemas.png), lightgray 50% / cover no-repeat;
+    background: url(../res/projeto-1/porblemas.png), lightgray 50% / cover no-repeat;
     flex-shrink: 0;
 }
 
@@ -549,7 +549,7 @@ html {
     margin-top: -200px;
     margin-left: 20px;
     border-radius: 15px 0px 0px 0px;
-    background: url(), lightgray 50% / cover no-repeat;
+    background: url(/res/projeto-1/porblemas.png), lightgray 50% / cover no-repeat;
     flex-shrink: 0;
 }
 

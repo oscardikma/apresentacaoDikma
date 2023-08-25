@@ -90,11 +90,15 @@ const fat_ano =  document.getElementById('fatAnual')
 
 /**Calculo de roi  */
 function return_Roi(tempo,valor,investimento) {
-let receita= tempo*valor
-let calc =  (receita-investimento)/investimento
-let calc2 = calc*100
+  let receita = tempo * valor;
+  let calc = (receita - investimento) / investimento;
+  let calc2 = calc * 100;
     roi.innerText = calc2.toFixed(2)
 }
+
+
+
+
 
 
 function return_Payback(investimento, receita) {
