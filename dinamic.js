@@ -1,3 +1,42 @@
+const empresas = [
+  document.getElementById('org1'),
+  document.getElementById('org2'),
+  document.getElementById('org3'),
+  document.getElementById('org4'),
+  document.getElementById('org5'),
+  document.getElementById('org6'),
+  document.getElementById('org7'),
+  document.getElementById('org8'),
+  document.getElementById('org9'),
+  
+];
+
+let quantidade = 0;
+
+function agrupar(event) {
+  const empresaClicada = event.target;
+
+  if (empresaClicada.classList.contains('clicada')) {
+      quantidade--;
+  } else {
+      quantidade++;
+  }
+
+  empresaClicada.classList.toggle('clicada');
+ alert('Total: ' + quantidade);
+}
+/**adcionando o evento a todas as empresas */
+document.getElementById('org1').addEventListener('click',agrupar,false)
+document.getElementById('org2').addEventListener('click',agrupar,false)
+document.getElementById('org3').addEventListener('click',agrupar,false)
+document.getElementById('org4').addEventListener('click',agrupar,false)
+document.getElementById('org5').addEventListener('click',agrupar,false)
+document.getElementById('org6').addEventListener('click',agrupar,false)
+document.getElementById('org7').addEventListener('click',agrupar,false)
+document.getElementById('org8').addEventListener('click',agrupar,false)
+document.getElementById('org9').addEventListener('click',agrupar,false)
+
+
 
 
 function open() {
@@ -100,7 +139,8 @@ function zerar() {
 function calculate_economy() {
     zerar()
     let investimento = 581749.00
-    let receita = 15000.00
+    let receita = 15000.00 
+    receita =receita*quantidade
     let tempo = 60
     const cashFlows = [investimento*-1, receita,receita,receita,receita]
     return_Roi(tempo,receita,investimento)
@@ -113,7 +153,8 @@ function calculate_economy() {
 function calculate_real() {
     zerar()
     let investimento = 581749.00
-    let receita = 30000.00
+    let receita = 30000.00 
+    receita = receita*quantidade
     let tempo = 60
     const cashFlows = [investimento*-1, receita,receita,receita,receita]
     return_Roi(tempo,receita,investimento)
@@ -127,6 +168,7 @@ function calculate_optmize() {
     zerar()
     let investimento = 581749.00
     let receita = 40000.00
+    receita= receita*quantidade
     let tempo =60
     const cashFlows = [investimento*-1, receita,receita,receita,receita]
     return_Roi(tempo,receita,investimento)
