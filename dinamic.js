@@ -161,6 +161,10 @@ function zerar() {
     tir.innerText = 0.00
 }
 
+
+//.toLocaleString('pt-BR')
+
+
 /**calculo do perfil conservador */
 function calculate_economy() {
     zerar()
@@ -169,6 +173,10 @@ function calculate_economy() {
     receita =receita*quantidade
     let faturamentoMes = 'R$' + receita.toFixed(2).replace('.', ',');
     let faturamentoAno = 'R$' + (receita * 12).toFixed(2).replace('.', ',');
+
+    faturamentoMes= faturamentoMes.replace(/\B(?=(\d{3})+(?!\d))/g, ".")
+    faturamentoAno =  faturamentoAno.replace(/\B(?=(\d{3})+(?!\d))/g, ".")
+
     fat_mes.innerText = faturamentoMes
     fat_ano.innerText=faturamentoAno
     let tempo = document.getElementById('tmp').value
@@ -188,6 +196,10 @@ function calculate_real() {
     let tempo = document.getElementById('tmp').value
     let faturamentoMes = 'R$' + receita.toFixed(2).replace('.', ',');
     let faturamentoAno = 'R$' + (receita * 12).toFixed(2).replace('.', ',');
+
+    faturamentoMes= faturamentoMes.replace(/\B(?=(\d{3})+(?!\d))/g, ".")
+    faturamentoAno =  faturamentoAno.replace(/\B(?=(\d{3})+(?!\d))/g, ".")
+
     fat_mes.innerText = faturamentoMes
     fat_ano.innerText=faturamentoAno
     const cashFlows = [investimento*-1, receita,receita,receita,receita]
@@ -206,6 +218,10 @@ function calculate_optmize() {
     let tempo = document.getElementById('tmp').value
     let faturamentoMes = 'R$' + receita.toFixed(2).replace('.', ',');
     let faturamentoAno = 'R$' + (receita * 12).toFixed(2).replace('.', ',');
+
+    faturamentoMes= faturamentoMes.replace(/\B(?=(\d{3})+(?!\d))/g, ".")
+    faturamentoAno =  faturamentoAno.replace(/\B(?=(\d{3})+(?!\d))/g, ".")
+
     fat_mes.innerText = faturamentoMes
     fat_ano.innerText=faturamentoAno
     const cashFlows = [investimento*-1, receita,receita,receita,receita]
@@ -213,8 +229,6 @@ function calculate_optmize() {
     return_Payback(investimento, receita)
     tir.innerText=  return_Tir(cashFlows).toFixed(2)
 }
-
-
 
 
 

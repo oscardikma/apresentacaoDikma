@@ -810,7 +810,7 @@ html {
     flex-shrink: 0;
 }
 
-.matriz .swot:not(.titulo-matriz){
+.matriz .swot:not(.titulo-matriz) {
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 1728px;
@@ -818,67 +818,89 @@ html {
     background: url(../res/swot/sowt.jpeg)50%;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.8;
+
     flex-shrink: 0;
 
 }
 
 .matriz .titulo-matriz {
     position: absolute;
-    margin-left:500px;
-    margin-top: 5px;
+    margin-left: 500px;
+    margin-top: 410px;
+    color:#000000;
+    background-color: rgba(255, 255, 255, 0.266);
+    border:20px solid rgba(255, 255, 255, 0.061);
+    border-radius: 10px;
+    padding: 10px;
     z-index: 1;
-   
+
 }
 
-.matriz .matriz-swot{
-    display:grid;
+.matriz .matriz-swot {
+    display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
 .matriz-swot {
-    color:white;
-    font-weight: bold;
-   z-index: 1;
-   justify-content: center;
-   margin-left:150px;
-  
-}
-
-.matriz-swot li{
-    list-style: none;
-}
-
-.matriz-swot .forcas{
-    color:white;
-    width:300px;
-    margin-left:450px;
-    margin-top:50px;
+    color: white;
     font-weight: bold;
     z-index: 1;
-   
+    justify-content: center;
+    margin-left: 150px;
+
 }
-.matriz-swot .fraquezas{
-    color:white;
-    width:300px;
-    margin-left:150px;
-    margin-top:50px;
-    font-weight: bold;
-   z-index: 1;
-  
-   
+
+.matriz-swot li {
+    list-style: none;
+    text-shadow: 1px 1px 2px rgba(4, 234, 255, 0.331);
 }
-.matriz-swot .oportunidades{
-    color:white;
-    font-weight: bold;
-   z-index: 1;
-  
-   
+
+.matriz-swot .forcas {
+    align-items: center;
+    width: 865px;
+    height: 502px;
+    margin-left: -150px;
+    background: url(), rgba(210, 5, 5, 0.145) 50% / cover no-repeat;
+    font-size: 25px;
+    justify-content: center;
+    z-index: 1;
+    flex-shrink: 0
 }
-.matriz-swot .ameacas{
-    color:white;
-    font-weight: bold;
-   z-index: 1;
-   
-   
+
+.matriz-swot .fraquezas {
+    width: 865px;
+    height: 502px;
+    margin-left: 20;
+    background: url(<path-to-image>), rgba(9, 34, 3, 0.469) 50% / cover no-repeat;
+    font-size: 25px;
+    justify-content: center;
+    flex-shrink: 0;
+    z-index: 1;
+
+
+}
+
+.matriz-swot .oportunidades {
+    width: 865px;
+    height: 500px;
+    margin-left: -150px;
+    background: url(<path-to-image>), rgba(12, 15, 222, 0.221) 50% / cover no-repeat;
+    font-size: 25px;
+    justify-content: center;
+    flex-shrink: 0;
+    z-index: 1;
+
+
+}
+
+.matriz-swot .ameacas {
+    width: 865px;
+    height: 500px;
+    margin-left: 0;
+    background: url(<path-to-image>), rgba(96, 12, 222, 0.221) 50% / cover no-repeat;
+    font-size: 25px;
+    justify-content: center;
+    flex-shrink: 0;
+    z-index: 1;
+
 }
