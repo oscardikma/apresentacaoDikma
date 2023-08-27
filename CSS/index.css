@@ -179,7 +179,7 @@ html {
 .page3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background: url(../res/geral/space-fundo.jpg), lightgray 50%;
+    background: url(../res/projeto-1/meio-ambiente.webp), lightgray 50%;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -210,11 +210,12 @@ html {
     flex-shrink: 0;
 }
 
+
 .page3 .titulo h1 {
     width: 950px;
     height: 75px;
     flex-shrink: 0;
-    color: #faf1f1;
+    color: #0f0d0d;
     font-family: Post No Bills Colombo ExtraBold;
     font-size: 72px;
     font-style: normal;
@@ -230,8 +231,12 @@ html {
     justify-content: center;
     overflow: hidden;
     background: #FFF;
+    background-image: url(/res/empresas/tc-human.jpg);
 }
-
+ .page4, .setor1, .setor2, .setor3{
+    margin-top:20px;
+    
+ }
 
 .page4 .setor1 {
 
@@ -239,7 +244,7 @@ html {
     height: 1037px;
     border-radius: 15px 0px 0px 15px;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.50);
-    background: rgba(1, 16, 47, 0.80);
+    background: #b6ccf859;
     flex-shrink: 0;
     margin-left: 2%;
 }
@@ -262,7 +267,7 @@ html {
     width: 416px;
     height: 71px;
     flex-shrink: 0;
-    color: #111010;
+    color: #ece3e3;
     font-family: Post No Bills Colombo ExtraBold;
     font-size: 48px;
     font-style: normal;
@@ -286,12 +291,16 @@ html {
     margin-bottom: 20%;
 }
 
+.setor1 h3{
+    color:rgb(28, 26, 26);
+}
+
 .page4 .setor2 {
     width: 530px;
     height: 1037px;
     border: 5px solid rgba(1, 16, 47, 0.79);
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.50);
-    background: rgba(3, 5, 19, 0.00);
+    background: #b6ccf88e;
     flex-shrink: 0;
     margin-left: 2%;
 
@@ -303,15 +312,15 @@ html {
     margin-left: 10%;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 30px;
-    border: 1px solid black;
+    font-size: 40px;
+    border: 2px solid black;
     border-radius: 5px;
 
 
 }
 
 .page4 .box h3:hover {
-    background-color: #01102f59;
+    background-color: #b6ccf859;
 }
 
 .page4 .setor3 {
@@ -320,7 +329,7 @@ html {
     height: 1037px;
     border-radius: 0px 15px 15px 0px;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.50);
-    background: rgba(1, 16, 47, 0.20);
+    background: rgba(172, 172, 173, 0.487);
     flex-shrink: 0;
     margin-left: 2%;
 
@@ -798,16 +807,13 @@ html {
 
 /*paginas criadas apos a criação inicial*/
 .pageflux .imagem {
-    width: 1000px;
-    height: 886px;
-    margin-left: 350px;
-    border-radius: 15px 0px 0px 15px;
-    background: url(../res/geral/fluxograma.jpeg), lightgray 50%;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: 10%;
+width: 1728px;
+height: 1300px;
+background: url(/res/empresas/fluxo-atividades.png), rgba(211, 211, 211, 0) 50%;
+background-repeat: no-repeat;
+background-size: 100%;
+flex-shrink: 0;
 
-    flex-shrink: 0;
 }
 
 .matriz .swot:not(.titulo-matriz) {
@@ -902,5 +908,11 @@ html {
     justify-content: center;
     flex-shrink: 0;
     z-index: 1;
+
+}
+
+ .leis h3{
+    color:rgba(16, 8, 8, 0.866);
+    font-size: 40px;
 
 }
