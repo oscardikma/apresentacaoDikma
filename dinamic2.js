@@ -25,7 +25,7 @@ function addEvent() {
       slide.display = "block"
       //imagem 1
       if(element.id==='sl1'){
-        imagem.backgroundImage=`url(${'../res/espacos/pesquisa-inovação.jpg'})`
+        imagem.backgroundImage=`url(${'/res/espacos/pesquisa-inovação.jpg'})`
         imagem.backgroundPosition = 'center';
         imagem.backgroundSize = 'cover'; 
         imagem.backgroundRepeat = 'no-repeat'; 
@@ -34,7 +34,7 @@ function addEvent() {
 
       //imagem2
       else if(element.id==='sl2'){
-        imagem.backgroundImage=`url(${'../res/espacos/sala-colaborativa-de-soft.jpg'})`
+        imagem.backgroundImage=`url(${'/res/espacos/sala-colaborativa-de-soft.jpg'})`
         imagem.backgroundPosition = 'center';
         imagem.backgroundSize = 'cover'; 
         imagem.backgroundRepeat = 'no-repeat'; 
@@ -42,7 +42,7 @@ function addEvent() {
 
       //imagem3
       else if(element.id==='sl3'){
-        imagem.backgroundImage=`url(${'../res/espacos/focus.jpg'})`
+        imagem.backgroundImage=`url(${'/res/espacos/focus.jpg'})`
         imagem.backgroundPosition = 'center';
         imagem.backgroundSize = 'cover'; 
         imagem.backgroundRepeat = 'no-repeat'; 
@@ -50,7 +50,7 @@ function addEvent() {
       
       //imagem4
       else if(element.id==='sl4'){
-        imagem.backgroundImage=`url(${'../res/espacos/descanso.jpeg'})`
+        imagem.backgroundImage=`url(${'/res/espacos/descanso.jpeg'})`
         imagem.backgroundPosition = 'center';
         imagem.backgroundSize = 'cover'; 
         imagem.backgroundRepeat = 'no-repeat'; 
@@ -58,7 +58,7 @@ function addEvent() {
 
       //imagem5
       else if(element.id==='sl5'){
-        imagem.backgroundImage=`url(${'../res/espacos/dikma-tec.jpg'})`
+        imagem.backgroundImage=`url(${'/res/espacos/dikma-tec.jpg'})`
         imagem.backgroundPosition = 'center';
         imagem.backgroundSize = 'cover'; 
         imagem.backgroundRepeat = 'no-repeat'; 
@@ -66,7 +66,7 @@ function addEvent() {
 
       //imagem6
       else if(element.id==='sl6'){
-        imagem.backgroundImage=`url(${'../res/espacos/design-thinking.jpg'})`
+        imagem.backgroundImage=`url(${'/res/espacos/design-thinking.jpg'})`
         imagem.backgroundPosition = 'center';
         imagem.backgroundSize = 'cover'; 
         imagem.backgroundRepeat = 'no-repeat'; 
