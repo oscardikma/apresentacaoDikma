@@ -26,8 +26,9 @@ html {
     text-align: center;
 }
 
-.container section:not(.page1, .page8, .page9, .extra1, .extra2, .extra3) {
-    background: #fdf9be;
+.container section:not(.page1, .page8, .page9, .extra1, .extra2, .extra3,.page6, .extranw) {
+    background: #f1eeee;
+    
 
 }
 
@@ -546,6 +547,66 @@ html {
 
 }
 
+/*page extra nw*/
+.extranw{
+    width: 1728px;
+    height: 1117px;
+    overflow: hidden;
+    background: #FFF;
+    margin-bottom: 120px;
+}
+
+.extranw .tema{
+    width: 616px;
+    height: 1200px;
+    border-radius: 15px 0px 0px 0px;
+    background: url(/res/projeto-1/porblemas.png), lightgray 50% / cover no-repeat;
+    flex-shrink: 0;
+}
+
+.extranw .planilha{
+    position:absolute;
+    margin-top:-70rem;
+    margin-left:50px;
+    width: 492px;
+    height: 832px;
+    box-shadow: 0px 4px 80px 0px rgba(0, 0, 0, 0.25);
+    background: url(/res/projeto-1/planilha.png), rgba(211, 211, 211, 0);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+
+.extranw .whats{
+    position:absolute;
+    margin-top:-70rem;
+    margin-left:50rem;
+    width: 400px;
+    height: 600px;
+    box-shadow: 0px 4px 80px 0px rgba(0, 0, 0, 0.25);
+    background: url(/res/projeto-1/whats.png), rgba(211, 211, 211, 0) 50%;
+    background-position: center;
+     background-repeat: no-repeat;
+     background-size: 150%;
+    flex-shrink: 0;
+}
+
+
+.extranw .meme{
+    width: 400px;
+    height: 400px;
+    position:absolute;
+    margin-top:-70rem;
+    margin-left: 80rem;
+    background: url(/res/projeto-1/meme.png), rgba(211, 211, 211, 0) 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    flex-shrink: 0;
+}
+
+
 
 /*pagina 6*/
 .page6 {
@@ -554,6 +615,13 @@ html {
     overflow: hidden;
     background: #FFF;
     margin-bottom: 120px;
+    background: url(/res/projeto-1/industria-freepik.png), lightgray 50% / cover no-repeat;
+    
+}
+
+.page6 .titulo{
+    color:white;
+    margin-left:-50rem;
 }
 
 .page6 .corpo {
@@ -562,6 +630,7 @@ html {
 
 
 .page6 .tema {
+    display:none;
     width: 616px;
     height: 1117px;
     margin-top: -200px;
@@ -592,11 +661,13 @@ html {
 
 }
 
-
+.page6 .melhoria{
+    margin-top:50px;
+}
 
 .melhoria h3 {
     width: 470px;
-    height: 170px;
+    height: 120px;
     font-size: 35px;
     margin-left: 20px;
     border-radius: 15px;
@@ -812,11 +883,6 @@ margin-left:15%;
  }
 
 
-
-
-
-
-
 /*Pagina 7*/
 .page7 {
     width: 100%;
@@ -872,8 +938,6 @@ margin-left:15%;
 }
 
 
-
-
 /*page8*/
 .page8 {
     width: 100%;
@@ -887,91 +951,59 @@ margin-left:15%;
 
 
 .page8 .titulo {
-    /* nada */
+  color:white;
 
 }
 
 
-.page8 .tabelas {
-    display: flex;
-    flex-direction: column;
-    padding-left: 25px;
 
+.page8 .invest{
+    display:grid;
+    grid-template-columns:1fr  1fr;
+    margin-left:10rem;
 }
 
-
-.tabelas .borda1 {
-    width: 720px;
-    height: auto;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border-radius: 15px 15px 0px 0px;
-    background: #1F2D49;
-    color: white;
-    font-size: 30px;
-    flex-shrink: 0;
-}
-
-
-.tabelas .borda2 {
-    width: 720px;
-    height: auto;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border-radius: 15px 15px 0px 0px;
-    background: #1F2D49;
-    color: white;
-    font-size: 30px;
-    flex-shrink: 0;
-}
-
-
-
-.page8 .table1 {
-    width: 720px;
-    height: 200px;
-    border-radius: 0px 0px 15px 15px;
-    background: rgba(255, 255, 255, 0.90);
-    flex-shrink: 0;
-    margin-bottom: 10px;
-
-}
-
-
-.page8 .tabelas table td {
-    border-bottom: 2px solid black;
-    width: 708.051px;
-    font-size: 30px;
-    font-weight: bold;
-    height: 1px;
-}
-
-
-.page8 .tabelas table {
-    padding-top: 20px;
-
-}
-
-
-.tabelas .info {
-    margin-top: 60px;
-}
-
-.page8 .table2 {
-    width: 720px;
+.invest .custo{
+    width: 412px;
     height: 150px;
-    border-radius: 0px 0px 15px 15px;
-    background: rgb(255, 255, 255);
+    margin-top:50px;
+    margin-left:20px;
+    border-radius: 15px;
+    background: #FFF;
     flex-shrink: 0;
 }
 
-.page8 .tabelas table td {
-    border-bottom: 2px solid black;
-    width: 708.051px;
-    height: 1px;
+.invest .never{
+background-color: #00000000;
 }
 
 
+.invest .custo h3{
+    width: 430px;
+    height: 56px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Segoe UI Variable;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+
+.invest .custo p{
+  
+    flex-shrink: 0;
+    margin-top:-50px;
+    color: #000;
+    font-family: Abel;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
 
 
 /*page 9*/
@@ -1083,6 +1115,7 @@ margin-left:15%;
 
 }
 
+
 .nacionais .box {
     width: 200px;
     height: 200px;
@@ -1152,7 +1185,7 @@ margin-left:15%;
     width: 576px;
     height: 919px;
     border-radius: 10px;
-    background: #00000096;
+    background: #000000e7;
     margin-left: 30rem;
     margin-top: 100px;
     display: flex;
@@ -1207,7 +1240,7 @@ margin-left:15%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: px;
-    margin-left: 20px;
+    margin-left: 140px;
 }
 
 .kpis .kpi {
@@ -1227,7 +1260,7 @@ margin-left:15%;
 }
 
 .kpis #kpi-roi {
-    margin-left: 70px;
+    margin-left: -70px;
 }
 
 .kpis #kpi-pay {
@@ -1235,6 +1268,7 @@ margin-left:15%;
 }
 
 .kpis #kpi-ti {
+    display:none;
     margin-left: 175px;
     margin-top: -35px
 }
