@@ -26,7 +26,7 @@ html {
     text-align: center;
 }
 
-.container section:not(.page1, .page8, .page9) {
+.container section:not(.page1, .page8, .page9, .extra1, .extra2, .extra3) {
     background: #fdf9be;
 
 }
@@ -133,6 +133,16 @@ html {
     flex-shrink: 0;
 }
 
+.all .imagem-tema-sdo {
+    width: 641px;
+    height: 1037px;
+    margin-top: -100px;
+    margin-left: 20px;
+    border-radius: 5px;
+    background: url(../res/projeto2/predio-sdo.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
+    flex-shrink: 0;
+}
+
 .cit p {
     width: 745px;
     height: 184px;
@@ -179,6 +189,7 @@ html {
     margin-left: 20px;
 }
 
+
 .intern .sustentavel2 {
     width: 100px;
     height: 100px;
@@ -211,7 +222,7 @@ html {
 
 
 .page3 .titulo {
-    margin-left: -600px;
+    margin-left: -750px;
 }
 
 .page3 .corpo {
@@ -222,14 +233,14 @@ html {
 .page3 .texto p {
     width: 700px;
     margin-left: 15px;
-    ;
+
 
 }
 
 
 .page3 .imagens {
     margin-left: 230px;
-    ;
+
 }
 
 
@@ -239,9 +250,19 @@ html {
     margin-top: -190px;
     width: 600px;
     margin-left: 50px;
-    ;
     height: 1100px;
     background: url(../res/projeto-1/fundo-sobre.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
+    flex-shrink: 0;
+    z-index: 1;
+}
+
+.page3 .imagens .sdo {
+    position: absolute;
+    margin-top: -190px;
+    width: 850px;
+    margin-left: 50px;
+    height: 1100px;
+    background: url(../res/projeto2/tema-sdo.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
     flex-shrink: 0;
     z-index: 1;
 }
@@ -257,6 +278,16 @@ html {
     z-index: 2;
 }
 
+.page3 .reportagem-sdo {
+    position: absolute;
+    margin-left: -50x;
+    width: 500px;
+    height: 454.118px;
+    background: url(../res/projeto2/qr-code.png), lightgray 50% / cover no-repeat;
+    flex-shrink: 0;
+    z-index: 2;
+}
+
 
 
 .page3 .grafico {
@@ -266,6 +297,18 @@ html {
     width: 500px;
     height: 273.715px;
     background: url(../res/projeto-1/grafico.png), lightgray 50% / cover no-repeat;
+    flex-shrink: 0;
+    z-index: 2;
+}
+
+
+.page3 .grafico-sdo {
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 630px;
+    width: 500px;
+    height: 273.715px;
+    background: url(../res/projeto2/grafico.png), lightgray 50% / cover no-repeat;
     flex-shrink: 0;
     z-index: 2;
 }
@@ -294,6 +337,11 @@ html {
 
 .page4 .equipe {
     display: flex;
+}
+
+.page4 .equipe-sdo {
+    display: flex;
+    margin-left: 350px;
 }
 
 
@@ -485,6 +533,19 @@ html {
 
 }
 
+.desafios-sdo h3 {
+    width: 470px;
+    margin-left: 20px;
+    border-radius: 15px;
+    line-height: 80px;
+    font-size: 30px;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.25);
+    background: #0b083071;
+    flex-shrink: 0;
+    color: white;
+
+}
+
 
 /*pagina 6*/
 .page6 {
@@ -505,12 +566,24 @@ html {
     height: 1117px;
     margin-top: -200px;
     border-radius: 15px 0px 0px 0px;
-    background: url(../res/projeto-1/time.jpg), lightgray 50%;
+    background: url(../res/projeto-1/porblemas.png), lightgray 50%;
     background-repeat: no-repeat;
     background-size: cover;
     flex-shrink: 0;
 }
 
+.page6 .flux {
+    position: absolute;
+    margin-left: 40px;
+    border-radius: 10px;
+    width: 1800px;
+    height: 685px;
+    background: url(/res/projeto2/fluxograma.png), lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    flex-shrink: 0;
+}
 
 .page6 .problemas {
     display: grid;
@@ -518,6 +591,8 @@ html {
     margin-top: -50px;
 
 }
+
+
 
 .melhoria h3 {
     width: 470px;
@@ -535,13 +610,220 @@ html {
 
 
 
+
+/*page extra1*/
+
+.extra1 {
+    width: 100%;
+    height: 1117px;
+   background: url(/res/projeto2/fundo-melhoria.png), lightgray 50% / cover no-repeat;
+    flex-shrink: 0;
+    display:flex;
+    margin-bottom: 120px;
+}
+
+.extra1 .mlh{
+  width: 50%;
+  height: 1117px;
+  margin-left: 10px;
+  background: rgba(0, 0, 0, 0.521);
+
+  flex-shrink: 0;
+
+}
+
+.mlh .box{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.mlh .box h3{
+width: 350px;
+padding-top:50px;
+padding-bottom: 50px;
+border-radius:10px;
+height:130 px;
+margin-left: 150px;
+flex-shrink: 0;
+color: #FFF;
+background-color: #000;
+font-family: Abel;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+}
+
+.extra1 .gastos{
+    width:50%;
+    margin-left: 10px;
+    height: 1117px;
+}
+ .gastos .box2{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+ }
+
+ .box2 .tec{
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    margin-left:100px;
+    margin-top:50px;
+    border-radius: 15px;
+    background: #FFF;
+    flex-shrink: 0;
+ }
+
+ .tec h4{
+    width: 161px;
+    height: 75px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Segoe UI Variable;
+    font-size: 32px;
+    margin-left: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+ }
+
+ .tec p{
+    width: 117px;
+    height: 53px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Segoe UI Symbol;
+    font-size: 32px;
+    margin-top:-10px;
+    margin-left:70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+ }
+
+ .box2 .qr-image{
+    width: 200px;
+    height: 200px;
+    margin-left:150px;
+    margin-top:100px;
+    border-radius: 15px;
+    background: url(/res/projeto2/qrcode-default.png), 50% / cover no-repeat;
+    flex-shrink: 0;
+ }
+
+
+ .box2 .qr-image h2{
+    color:red;
+    font-size:200px;
+    margin-top: -5px
+ }
+
+ .box2 .nfc-image{
+    width: 200px;
+    height: 200px;
+    margin-top:100px;
+    margin-left:150px;
+    border-radius: 15px;
+    background: url(/res/projeto2/nfc-card.png), rgb(255, 255, 255) 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-shrink: 0;
+ }
+
+
+ /*Pagina extra 2*/
+.extra2{
+   width: 100%px;
+   height: 1117px;
+   background: url(/res/projeto2/fundo-result.png), lightgray 50%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   flex-shrink: 0; 
+   margin-bottom: 120px;
+}
+
+.extra2 .titulo{
+    color:white;
+    margin-left: -100rem;
+}
+
+.extra2 .box{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+margin-left:15%;
+}
+
+.extra2 .box h3{
+    width: 403px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Abel;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100px;
+    text-align: center;
+    width: 600px;
+    height: 150px;
+    border-radius: 15px;
+    border: 5px solid #000;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.25);
+    background: #000;
+}
+
+
+/*extra 3*/
+.extra3{
+    width: 100%px;
+    height: 1117px;
+    background: url(/res/projeto2/ferias.png), lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-shrink: 0; 
+    margin-bottom: 120px;
+ }
+ 
+ .extra3 .box{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 15%;
+ }
+
+
+ .extra3 .box h3{
+
+    width: 403px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Abel;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100px;
+    text-align: center;
+    width: 600px;
+    height: 150px;
+    border-radius: 15px;
+    border: 5px solid #000;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.25);
+    background: #000;
+ }
+
+
+
+
+
+
+
 /*Pagina 7*/
 .page7 {
     width: 100%;
     height: 1117px;
     overflow: hidden;
-    background: #FFF;
     margin-bottom: 120px;
+
 }
 
 
@@ -596,7 +878,7 @@ html {
 .page8 {
     width: 100%;
     height: 1203px;
-    background: url(../res/projeto-1/fundoinvestimento.jpg)rgb(250, 233, 233) 50%;
+    background: url(../res/projeto2/fundo-investimento.png)rgb(250, 233, 233) 50%;
     background-size: cover;
     background-repeat: no-repeat;
     flex-shrink: 0;
@@ -1100,7 +1382,6 @@ html {
     height: 150px;
     border-radius: 15px;
     background: #FFF;
-
     background: url(../res/empresas/belgo.png), rgb(255, 255, 255) 50%;
     background-repeat: no-repeat;
     background-size: 100%;
