@@ -79,6 +79,6 @@ function addEvent() {
 }
 addEvent() //adcionando o evento em todas as caixinhas
 
-
+/**Foi realizada a mundança */
 
 
