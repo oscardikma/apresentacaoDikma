@@ -123,11 +123,12 @@ html {
 
 .page2 .fundamentos {
     display: flex;
+    margin-left:35px;
 }
 
 .fundamentos .found {
     width: 230px;
-    height: 241.916px;
+    height: 300px;
     background: #0b1535c2;
     margin-left: 20px;
     font-size: 1px;
@@ -138,8 +139,20 @@ html {
 
 .fundamentos .mission p {
     width: 230px;
+   
     font-size: 15px;
     color: white;
+}
+
+.fundamentos .img-mission{
+    width: 150px;
+    height: 150px;
+    margin-top:-80px;
+    margin-left:40px;
+    background: url('../res/geral/missão.jfif');
+    background-size: cover;
+    border-radius: 100%;
+
 }
 
 .fundamentos .vision p {
@@ -152,6 +165,16 @@ html {
     width: 230px;
     font-size: 15px;
     color: white;
+}
+
+.fundamentos .img-values{
+    width: 150px;
+    height: 150px;
+    margin-top:-80px;
+    margin-left:40px;
+    background: url(../res/geral/valores.webp);
+    background-size: cover;
+    border-radius: 100%;
 }
 
 
@@ -171,6 +194,16 @@ html {
     width: 230px;
     font-size: 20px;
     color: white;
+}
+
+.fundamentos .img-vision{
+    width: 150px;
+    height: 150px;
+    margin-top:-80px;
+    margin-left:40px;
+    background: url(../res/geral/vision.png);
+    background-size: cover;
+    border-radius: 100%;
 }
 
 
@@ -357,6 +390,13 @@ html {
     margin-top: 15px;
 }
 
+.page5 h1{
+  font-size: 40px;
+}
+
+.page5 h4{
+    font-size: 30px;
+}
 
 
 .gov .equipe .pessoal {
@@ -386,7 +426,13 @@ html {
     padding-right: 0;
     padding-bottom: 10px;
     margin-left: -80px;
+    font-size: 27px;
+    color:rgb(213, 202, 131);
     z-index: 1;
+}
+
+.page5 .funcao p{
+    font-size: 20px;
 }
 
 .gov .gestor {
@@ -398,7 +444,7 @@ html {
     display: flex;
 }
 
-.page54 .oscar .user {
+.page5 .oscar .user {
     width: 100px;
     height: 100px;
     background: url(../res/governança/user-default.png), lightgray 50% / cover no-repeat;
@@ -453,6 +499,9 @@ html {
 
 }
 
+.page6 .projetos h3{
+    font-size: 25px;
+}
 
 /*ano 1*/
 .ano1 .projetos .imagem1 {
@@ -581,7 +630,9 @@ html {
     width: 324px;
     height: 200px;
     border-radius: 10px;
-    background: url(../res/layout/pesquisa.png), lightgray 50% / cover no-repeat;
+    background: url(../res/espacos/pesquisa-inovação.jpg), lightgray 50%;
+    background-size: cover;
+    cursor:pointer;
     flex-shrink: 0;
 }
 
@@ -600,7 +651,9 @@ html {
     width: 324px;
     height: 200px;
     border-radius: 10px;
-    background: url(../res/layout/lab-dev.png), lightgray 50% / cover no-repeat;
+    background: url(../res/espacos/sala-colaborativa-de-soft.jpg), lightgray 50%;
+    background-size: cover;
+    cursor:pointer;
     flex-shrink: 0;
 }
 
@@ -608,7 +661,6 @@ html {
     width: 324px;
     height: 200px;
     border-radius: 10px;
-    background: url(../res/layout/lab-dev.png), lightgray 50% / cover no-repeat;
     background-position: 50%;
     background-size: 35dvb;
     flex-shrink: 0;
@@ -619,7 +671,9 @@ html {
     width: 324px;
     height: 200px;
     border-radius: 10px;
-    background: url(../res/layout/focus-group.png), lightgray 50% / cover no-repeat;
+    background: url(../res/espacos/focus.jpg), lightgray 50%;
+    background-size: cover;
+    cursor:pointer;
     flex-shrink: 0;
 }
 
@@ -627,7 +681,6 @@ html {
     width: 324px;
     height: 200px;
     border-radius: 10px;
-    background: url(../res/layout/focus-group.png), lightgray 50% / cover no-repeat;
     background-position: 50%;
     background-size: 35dvb;
     flex-shrink: 0;
@@ -639,7 +692,10 @@ html {
     width: 324px;
     height: 200px;
     border-radius: 10px;
-    background: url(../res/layout/recreation.png), lightgray 50% / cover no-repeat;
+    background: url(../res/espacos/descanso.jpeg), lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor:pointer;
     flex-shrink: 0;
 }
 
@@ -647,7 +703,6 @@ html {
     width: 324px;
     height: 200px;
     border-radius: 10px;
-    background: url(../res/layout/recreation.png), lightgray 50% / cover no-repeat;
     background-position: 50%;
     background-size: 35dvb;
     flex-shrink: 0;
@@ -659,7 +714,10 @@ html {
     width: 324px;
     height: 200px;
     border-radius: 10px;
-    background: url(../res/layout/dikmatec.png), lightgray 50% / cover no-repeat;
+    background: url(../res/espacos/dikma-tec.jpg), lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor:pointer;
     flex-shrink: 0;
 }
 
@@ -667,7 +725,7 @@ html {
     width: 324px;
     height: 200px;
     border-radius: 10px;
-    background: url(../res/layout/dikmatec.png), lightgray 50% / cover no-repeat;
+   
     background-position: 50%;
     background-size: 35dvb;
     flex-shrink: 0;
@@ -679,7 +737,10 @@ html {
     width: 324px;
     height: 200px;
     border-radius: 10px;
-    background: url(../res/layout/thinking.png), lightgray 50% / cover no-repeat;
+    background: url(../res/espacos/design-thinking.jpg), lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor:pointer;
     flex-shrink: 0;
 }
 
@@ -687,9 +748,9 @@ html {
     width: 324px;
     height: 200px;
     border-radius: 10px;
-    background: url(../res/layout/thinking.png), lightgray 50% / cover no-repeat;
+   
     background-position: 50%;
-    background-size: 35dvb;
+    background-size: 200%;
     flex-shrink: 0;
 }
 
@@ -712,6 +773,34 @@ html {
     text-align: center;
 }
 
+
+.page7 .exibir{
+    display: none;
+    position:absolute;
+    background-color: rgba(123, 134, 187, 0.871);
+    margin-top:150px;
+    margin-left:-90px;
+    width: 100%;
+    height: 90%;
+}
+
+.exibir h5{
+   
+    width:100px;
+    font-size: 25px;
+    border-radius:10px;
+    border:1px solid rgb(238, 133, 133);
+    background-color: white;
+    cursor:pointer;
+}
+
+.exibir .imagem{
+   
+    width: 800px;
+    height: 600px;
+    margin-left:25%;
+   
+}
 
 
 /*página 8*/
@@ -903,16 +992,36 @@ flex-shrink: 0;
     width: 865px;
     height: 500px;
     margin-left: 0;
-    background: url(<path-to-image>), rgba(96, 12, 222, 0.221) 50% / cover no-repeat;
-    font-size: 25px;
+       font-size: 25px;
     justify-content: center;
     flex-shrink: 0;
     z-index: 1;
 
 }
 
+.page-lei{
+    width: 1728px;
+    height: 1135px;
+    background: url(../res/geral/incentivo.avif), lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-shrink: 0;
+   
+}
+
+.leis{
+    margin-top: 250px;
+
+}
+
+.lei h1{
+    margin-top:500px;
+    color: white;
+    text-shadow: black 4px 4px;
+}
+
  .leis h3{
-    color:rgba(16, 8, 8, 0.866);
+    color:rgba(248, 243, 243, 0.914);
     font-size: 40px;
 
 }
