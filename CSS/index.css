@@ -25,7 +25,7 @@ html {
     width: 1728px;
     height: 1117px;
     margin-bottom: 120px;
-    background-color: #f8dfb980;
+    background-color: #f1eeea;
 }
 
 .titulo h1 {
@@ -1122,3 +1122,38 @@ flex-shrink: 0;
     font-size: 40px;
 
 }
+
+.need{
+   
+    width: 1920px;
+    height: 1131px;
+    background: url(../res/geral/question.png), lightgray 50% / cover no-repeat;
+    flex-shrink: 0;
+}
+
+.need .titulo{
+    color:white;
+}
+
+.need .box{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left:8rem;
+}
+
+.need .box h3{
+    width: 600px;
+    height: 150px;
+    border-radius: 15px;
+    background: #FFF;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Segoe UI Variable;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+
+}
+
