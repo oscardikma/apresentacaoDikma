@@ -137,6 +137,13 @@ html {
 
 }
 
+/* missao */
+.fundamentos .mission h3 {
+    width: 230px;
+    font-size: 20px;
+    color: white;
+}
+
 .fundamentos .mission p {
     width: 230px;
    
@@ -155,42 +162,15 @@ html {
 
 }
 
+
+/* visão */
 .fundamentos .vision p {
     width: 230px;
     font-size: 15px;
     color: white;
 }
 
-.fundamentos .values p {
-    width: 230px;
-    font-size: 15px;
-    color: white;
-}
-
-.fundamentos .img-values{
-    width: 150px;
-    height: 150px;
-    margin-top:-80px;
-    margin-left:40px;
-    background: url(../res/geral/valores.webp);
-    background-size: cover;
-    border-radius: 100%;
-}
-
-
-.fundamentos .mission h3 {
-    width: 230px;
-    font-size: 20px;
-    color: white;
-}
-
 .fundamentos .vision h3 {
-    width: 230px;
-    font-size: 20px;
-    color: white;
-}
-
-.fundamentos .values h3 {
     width: 230px;
     font-size: 20px;
     color: white;
@@ -204,6 +184,121 @@ html {
     background: url(../res/geral/vision.png);
     background-size: cover;
     border-radius: 100%;
+}
+
+
+/* valores */
+.fundamentos .values p {
+    width: 230px;
+    font-size: 15px;
+    color: white;
+}
+
+.fundamentos .values h3 {
+    width: 230px;
+    font-size: 20px;
+    color: white;
+}
+
+
+.fundamentos .img-values{
+    width: 150px;
+    height: 150px;
+    margin-top:-80px;
+    margin-left:40px;
+    background: url(../res/geral/valores.webp);
+    background-size: cover;
+    border-radius: 100%;
+}
+
+
+
+
+/* paixão */
+.fundamentos .paixao p {
+    width: 230px;
+    font-size: 15px;
+    color: white;
+}
+
+.fundamentos .img-paixao{
+    width: 150px;
+    height: 150px;
+    margin-top:-80px;
+    margin-left:40px;
+    background: url(../res/geral/paixao.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+}
+
+.fundamentos .paixao h3 {
+    width: 230px;
+    font-size: 20px;
+    color: white;
+}
+
+
+/* razão */
+.fundamentos .razao p {
+    width: 230px;
+    font-size: 15px;
+    color: white;
+}
+
+.fundamentos .img-razao{
+    width: 150px;
+    height: 150px;
+    margin-top:-80px;
+    margin-left:40px;
+    background: url(../res/geral/razao.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+}
+
+.fundamentos .razao h3 {
+    width: 230px;
+    font-size: 20px;
+    color: white;
+}
+
+
+/* proposito */
+.fundamentos .proposito p {
+    width: 230px;
+    font-size: 15px;
+    color: white;
+}
+
+.fundamentos .img-proposito{
+    width: 150px;
+    height: 150px;
+    margin-top:-80px;
+    margin-left:40px;
+    background: url(../res/geral/proposito.jfif);
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+}
+
+.fundamentos .proposito h3 {
+    width: 230px;
+    font-size: 20px;
+    color: white;
+}
+
+
+.fundamentos .img-astronauta{
+    width:700px;
+    height:500px;
+    margin-top: -38rem;
+  
+    position:absolute;
+    background: url(../res/geral/astronauta.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -905,6 +1000,10 @@ flex-shrink: 0;
 
 }
 
+.page-lei{
+    margin-top:-420px;
+}
+
 .matriz .swot:not(.titulo-matriz) {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -913,7 +1012,6 @@ flex-shrink: 0;
     background: url(../res/swot/sowt.jpeg)50%;
     background-repeat: no-repeat;
     background-size: cover;
-
     flex-shrink: 0;
 
 }
@@ -922,9 +1020,8 @@ flex-shrink: 0;
     position: absolute;
     margin-left: 500px;
     margin-top: 410px;
-    color:#000000;
-    background-color: rgba(255, 255, 255, 0.266);
-    border:20px solid rgba(255, 255, 255, 0.061);
+    color:#ffffff;
+    background-color: rgba(30, 26, 26, 0.705);
     border-radius: 10px;
     padding: 10px;
     z-index: 1;
