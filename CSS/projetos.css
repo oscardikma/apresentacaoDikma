@@ -411,7 +411,7 @@ html {
     width: 300px;
     height: 300px;
     border-radius: 300px;
-    background: url(../res/projeto-1/ftoscar.jpeg), lightgray 50%;
+    background: url(../res/geral/foto-oscar.jpeg), lightgray 50%;
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
@@ -1121,6 +1121,19 @@ background-color: #00000000;
     height: 200px;
     border-radius: 15px;
     background-color: #FFF;
+    background-image: center;
+    background-size: 102%;
+    flex-shrink: 0;
+    margin-top: 100px;
+    cursor: pointer;
+}
+.nacionais .box:hover {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+   background-size: 103%;
+   background-image: center;
+   background-color: #FFF;
     flex-shrink: 0;
     margin-top: 100px;
     cursor: pointer;
@@ -1390,8 +1403,8 @@ background-color: #00000000;
 
 /* aperam */
 .nacionais .org5 {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 15px;
     background: url(../res/empresas/apream.png);
     background-repeat: no-repeat;
@@ -1426,9 +1439,10 @@ background-color: #00000000;
 .nacionais .org8 {
     width: 150px;
     height: 150px;
-    background: url(../res/empresas/cba.png), lightgray 50%;
+    background: url(../res/empresas/cba.png), #fff 50%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 180px;
+    background-position: center;
     flex-shrink: 0;
 }
 
@@ -1445,8 +1459,8 @@ background-color: #00000000;
 
 /* gerdau */
 .nacionais .org10 {
-    width: 200px;
-    height: 200px;
+    width: 155px;
+    height: 155px;
     border-radius: 15px;
     background: url(../res/empresas/gerdau.png);
     background-repeat: no-repeat;
@@ -1504,4 +1518,11 @@ background-color: #00000000;
 .page12,
 .page13 {
     display: none;
+}
+
+.page8 h6{
+color:red;
+margin-top:-25px;
+font-size:12px;
+
 }
