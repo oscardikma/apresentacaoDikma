@@ -20,13 +20,13 @@ html {
 
 
 .container {
-    width: 100%;
+     width: 100%;
     margin-top: auto;
     margin-left: auto;
     text-align: center;
 }
 
-.container section:not(.page1, .page8, .page9, .extra1, .extra2, .extra3,.page6, .extranw) {
+.container section:not(.page1, .page8, .page9, .extra1, .extra2, .extra3,.page6, .extranw,).decision {
     background: #f1eeee;
     
 
@@ -1526,3 +1526,15 @@ margin-top:-25px;
 font-size:12px;
 
 }
+
+.decision{
+    width:30;
+    height: 300px;
+    overflow-x: auto;
+    overflow-y: auto;
+    margin-left:10000px;
+    
+    
+
+}
+
